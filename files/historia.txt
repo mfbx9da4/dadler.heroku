@@ -1,0 +1,42 @@
+1 = persona 1
+2 = persona 2
+
+1 accorder
+2 cafe de manha
+3 entem noite
+
+1 Bom dia, voce acabo de levantar?
+2 Oi, tudo bem, sim, eu dormi muito bem.
+
+1 sim ta come forme?
+2 nao tenho sono
+
+1 quires dormir mas um poco
+2 nao tenho que acordar agora
+
+1 porque?
+2 porque tenho que vir en na centro cuidad pra comprar coisas
+
+1 que coisas?
+2 remedios
+
+1 esta duente?
+2 sim, desde entem noite
+
+1 ta, entoun, quires comer antes que voce vais?
+2 sim 
+
+1 ta, estoy cozinhendo ovos com tomate y quiejo? gosta d'isso?
+2 sim gosto, mas nao gosto de queijo. tambem tenho sede, voce tein cafe. 
+
+1 sim, mas e melhor beber agua com cafe de manha. 
+2 posso ajudar voce?
+
+1 sim, cortar pao com uma faca y limpiar pratos.
+2 ta, vo tomar bano y escovar dentes agora y depoi faser isso.
+
+1 conhece o caminho para o centro?
+2 acredito que com o mapa do metro eu consigo chegar la ou eu pergunto para a pessoa que da informac~oes
+
+1 okay, voce poderia levantar essa caixa para mim?
+2 claro, voce 

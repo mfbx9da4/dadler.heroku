@@ -130,7 +130,7 @@ span-date[2012-2013]
         'description' : 'A breakdown of my technical skills.'
         'content' : """
 
-**Likes:**
+###<i class="fa fa-2x fa-thumbs-up"></i> **Likes:**
 
 1. python
 2. coffeescript
@@ -139,7 +139,7 @@ span-date[2012-2013]
 5. ember.js
 
 
-**Dislikes:**
+###<i class="fa fa-2x fa-thumbs-down"></i> **Dislikes:**
 
 1. php
 2. internet explorer
@@ -205,16 +205,28 @@ span-nov[Novice]
 
 
 <script>
+    var animated = 0
     $(window).scroll(function() {
-        $('.graph').each(function(){
-        var imagePos = $(this).offset().top;
+        var graphs = $('.graph')
+        var exited_view = true;
+        if (exited_view) {
+            console.log('called')
+            graphs.each(function(){
+                var graph = $(this).offset().top;
+                var topOfWindow = $(window).scrollTop();
+                var windowHeight = $(window).height();
 
-        var topOfWindow = $(window).scrollTop();
-        var windowHeight = $(window).height();
-            if (imagePos < topOfWindow+windowHeight) {
-                $(this).addClass("stretchRight");
-            }
-        });
+                if (graph < topOfWindow+windowHeight) {
+                    var bar = $(this)
+                    // bar.removeClass("stretchRight")
+                    window.setTimeout(
+                        function () {
+                            bar.addClass("stretchRight");
+                        }, 10
+                    );
+                }
+            });
+        }
     });
 </script>
 
@@ -235,6 +247,9 @@ span-nov[Novice]
     - meet Brazilian family
     - ?bask? in the sun
 
+started going to AI lessons
+started teaching myself code
+
 Truth:
     adventure
     new experiences 
@@ -247,12 +262,39 @@ Truth:
 Aim:
     Demonstrate good morals
     Like learning
+    1 paragraph
+
+Interests 
+    - slacklining
+    - cycling
+    - coffee
+    - gymnastics
+    - music
 
 """
     }, {
         'icon' : 'fa-phone'
         'title' : 'Contact'
-        'description' : 'My personal details and references.'
-        'content' : """ """
+        'description' : 'My personal details, online accounts and references.'
+        'content' : """
+email: dalberto.adler@gmail.com\n
+number: 0044 7891 946 982
+
+##References
+span-date[Autumn 2013] **Joshua Wohle** - Cheif Production Oﬃcer and manager at SuperAwesome.
+
+joshua@superawesome.tv
+
+
+span-date[2011-2012] **Doctor Markel Olabarria** - Supervisor for one year during laboratory placement.
+
+markelolaba@gmail.com
+
+
+span-date[2009-2013] **Professor Richard Baines** - Personal advisor over four year period during university.
+
+richard.baines@manchester.ac.uk
+
+"""
     }
 ]

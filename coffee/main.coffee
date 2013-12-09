@@ -44,13 +44,13 @@ writeMain = () ->
     window.converter.hooks.chain("preConversion",  (text) ->
         return text.replace(/(\w*)-(\w*)\[(.*)]/gi, "<$1 class='$2'>$3</$1>")
     )
-    window.converter.hooks.chain("preConversion",  (text) ->
-        return text.replace(/graph-(\d\d\d?)%/gi, '<div style="width:30em"><div class="animated graph" style="width: $1%;"></div></div>')
+        return text.replace(/graph-(\d\d\d?)%/gi, '<div style="width:30em"><div class="animated stretchRight graph" style="width: $1%;"></div></div>')
     )
 
     window.container.append(main_container)
     cv_sections = []
     for data in window.cv_sections
+    window.converter.hooks.chain("preConversion",  (text) ->
         sect = new window.Section(data.icon, data.title, data.description, data.content)
         cv_sections.push(sect.render())
     $('.main').append(cv_sections)
