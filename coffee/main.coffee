@@ -1,4 +1,4 @@
-# coffee -o js/ -cw coffee/
+F# coffee -o js/ -cw coffee/
 $(window).ready ->
     main()
 
@@ -51,7 +51,7 @@ writeMain = () ->
     cv_sections = []
     for data in window.cv_sections
     window.converter.hooks.chain("preConversion",  (text) ->
-        sect = new window.Section(data.icon, data.title, data.description, data.content)
+        sect = new Section(data.icon, data.title, data.description, data.content)
         cv_sections.push(sect.render())
     $('.main').append(cv_sections)
     $('span.fill').hover(

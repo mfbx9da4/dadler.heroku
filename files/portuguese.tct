@@ -1,9 +1,19 @@
 VERBOS
 precisar
 fazer
-ficar
 querer
+poder
+saber
+encontrar
+conseguir
+pensar
+conhecer
+ver
+pegar
+
+tirar
 comer
+ficar
 beber
 usar
 andar
@@ -11,9 +21,7 @@ acordar
 dormir
 limpar
 cozinhar
-poder
 ler
-saber
 melhorar
 sentir
 sentar
@@ -23,7 +31,6 @@ ajudar
 nadar
 perguntar
 machucar 
-encontrar
 jogar
 adivinhar
 descobrir
@@ -31,9 +38,7 @@ achar
 procurar
 seguir
 tentar
-conseguir
 desistir
-pensar
 existir
 sofrer
 amar
@@ -45,19 +50,16 @@ soltar
 abaixar
 esquentar
 esfriar
-conhecer
 escrever
 puxar
 empurrar
 guardar
 enconder
-tirar
 escolher
 dançar
 pular
 pintar
 ouvir
-ver
 tocar
 
 
@@ -69,32 +71,34 @@ eles tem/podem/são/vão/foram
 
 CONNECTIONS
 também
-ainda
-mesmo
-mas / apesar
-parecido/contrario
 antes/depois
 ontem/hoje/amanhã
 tudo/nada
 menos/mais
 perto/longe
+bom/ruim
+forte/fraca
+contra/com
+em cima/ embaixo
+muito/pouco
+beleiza/legal/mierda
+
+
+ainda
+mesmo
+mas / apesar
+parecido/contrario
 cedo/tarde
 verdade/mentira
 certo/errado
 risco/
 perigoso/seguro (non tein perigo)
-bom/ruim
-forte/fraca
-contra/com
 tão pouco
-em cima/ embaixo
 em frente/do lado/atrás/entre/sobre
 quente/frio/morno
-muito/pouco
 grande/pequeno
 alto/baixo
 de mas/
-beleiza/legal/fodda
 
 
 
@@ -111,14 +115,17 @@ pode me dar?
 
 QUESTIONS
 onde
+como
 o que
 quando
-como
-quem
+quem - quein
 quanto
 
 SUBSTANTIVOS
 dinheiro
+manos
+cabeça
+
 ruído
 música
 coisa
@@ -142,10 +149,12 @@ prato
 coração
 perna
 pé
+manos
+cabeça
+cabelo
 dedo
 olho
-cabelo
-cabeça
+braso
 nariz
 computador
 televisão
@@ -164,6 +173,9 @@ elastico
 
 
 ADJECTIVOS/ADVERBOS
+velho / novo
+bonito / feio
+
 chata
 sujo
 limpo
@@ -171,8 +183,6 @@ bravo
 contente/alegre
 (des)preoccupado
 inveja
-velho / novo
-bonito / feio
 engraçado
 esquisto/estranho
 importante

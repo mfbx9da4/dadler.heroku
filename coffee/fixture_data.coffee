@@ -10,7 +10,7 @@ span-date[2009–2013]
 ###2:1 (69%) BSc Honours Neuroscience, span-discrete[University of Manchester, UK.]
 - Averaged 1st in core neuroscience modules.
 - Demonstrated drive and creativity by designing my own ﬁnal year project *de novo*.
-- Project (awarded 1st): Disproved validity of a pioneering artiﬁcial intelligence algorithm. Created my own computational model of learning networks of the brain. Gained experience in computational modelling and machine learning.
+- Project (awarded 1st): Challenged the validity of a pioneering artiﬁcial intelligence algorithm. Created my own computational model of learning networks of the brain. Gained experience in computational modelling and machine learning.
 
 <hr/>
 
@@ -50,7 +50,7 @@ span-date[2004–2006]
 
 span-date[Autumn 2013] 
 
-###Web developer, span-discrete[SuperAwesome, London, UK.]
+###Web developer, <span class="discrete"><a href="http://www.superawesome.tv/" >SuperAwesome</a>, London, UK.</span>
 - Developed multiple mini-games using HTML5 canvas and javascript.
 - Innovated and developed a front-end automator which automated front-end
 build timefor commercial campaigns from 5 hours to 1 minute.
@@ -62,7 +62,7 @@ build timefor commercial campaigns from 5 hours to 1 minute.
 
 span-date[Summer 2013]
 
-###Marketing analyst, span-discrete[SportPursuit, London, UK.]
+###Marketing analyst, <span class="discrete"><a href="http://www.sportpursuit.com/"> SportPursuit,</a> London, UK.</span>
 - Innovated and developed a script which optimized marketing campaign launch
 time from 1 hour to 10 minutes.
 - Performed data analysis of facebook and google advertisement campaigns.
@@ -70,7 +70,7 @@ time from 1 hour to 10 minutes.
 <hr/>
 
 span-date[2011–2012] 
-###Neuroscience Research Placement, span-discrete[Laboratory of Functional Neuroanatomy, IkerBasque, Spain.]
+###Neuroscience Research Placement, <span class="discrete">Laboratory of Functional Neuroanatomy, <a href="http://www.ikerbasque.net/">IkerBasque</a>, Spain.</span>
 - Developed methodical approach and attention to detail by conducting unsupervised
 scientiﬁc experiments.
 - Developed presentation skills in regular boardroom meetings.
@@ -82,7 +82,7 @@ transgenic mouse model of Alzheimer’s disease. Developed skills in data analys
 
 span-date[Summer 2011]
 
-###Estate Agent, span-discrete[Imperial Homes, Kensington, London, UK.]
+###Estate Agent, <span class="discrete"><a href="http://imperialhomes.w8.co.uk">Imperial Homes</a>, Kensington, London, UK.</span>
 - Property negotiator in high-proﬁle sales and lettings. Thrived in high-pressure
 negotiation situations and maintained composure in precarious deals.
 - Demonstrated competency in customer relations when conducting viewings and
@@ -90,27 +90,14 @@ conversing with high net worth clients.
 - Gained experience in corporate etiquette when conducting phone and email
 conversations in a professional manner.
 
-<hr/>
-
-span-date[Summer 2010]
-
-###Private beach waiter, span-discrete[Plage Rive Gauche, Juan Les Pins, France.]
-- Working 84 hours per week gave me a sharp introduction to what a "proper day's work" really is.
-
 """
     }, {
         'icon' : 'fa-code'
         'title' : 'Portfolio'
         'description' : 'Weekend proejcts and things that I\'m proud of.'
         'content' : """
-###Front-end automator
+###[Front-end automator](http://spritesheet-gen.herokuapp.com/campaign/Sks6OUwjp/)
 - Automates CSS positioning and sprite cropping using image detection algorithms and HTML5 canvas.
-
-###Youtube playlist manager
-- Contributed to open source youtube playlist manager.
-
-###Mini-games
-- Puzzle game
 
 span-date[2012-2013]
 
@@ -120,8 +107,6 @@ span-date[2012-2013]
 ###Google docs referencing system
 - Small project but neat solution. Using google apps script.
 
-###Project Euler
-- Various mathematical and computational problems
 
 """
     }, {
@@ -129,23 +114,38 @@ span-date[2012-2013]
         'title' : 'Skills'
         'description' : 'A breakdown of my technical skills.'
         'content' : """
+<hr>
 
-###<i class="fa fa-2x fa-thumbs-up"></i> **Likes:**
-
-1. python
-2. coffeescript
-3. SASS
-4. django   
-5. ember.js
-
-
-###<i class="fa fa-2x fa-thumbs-down"></i> **Dislikes:**
-
-1. php
-2. internet explorer
-3. flash
-4. windows
-
+<table >
+<tr>
+    <td>
+        <i style="color: rgba(32, 160, 48, 1)" class="fa fa-2x fa-thumbs-up"></i>
+    </td>
+    <td style="padding-left: 5em;">
+        <i style="color: rgba(0, 0, 0, 0.5)" class="fa fa-2x fa-thumbs-down"></i>
+    </td>
+</tr>
+<tr>
+    <td>
+        <ol>
+            <li>python</li>
+            <li>coffeescript</li>
+            <li>javascript</li>
+            <li>SASS</li>
+            <li>django</li>
+        </ol>
+    </td>
+    <td  style="padding-left: 5em;">
+        <ol>
+            <li>internet explorer</li>
+            <li>flash</li>
+            <li>javascript</li>
+            <li>php</li>
+            <li>windows</li>
+        </ol>
+    </td>
+</tr>
+</table>
 
 <hr>
 ###Technologies by color:
@@ -186,47 +186,51 @@ Legend:
 
 span-pro[Advanced]
 span-med[Intermediate]
-span-nov[Novice]
+span-nov[Novice, but eager to learn more.]
 
 
 <hr>
-###Types of intelligence span-discrete[(influenced by [Howard Gardner's theory](http://skyview.vansd.org/lschmidt/Projects/The%20Nine%20Types%20of%20Intelligence.htm))]
+###Relative types of intelligence span-discrete[(influenced by [Howard Gardner's theory](http://skyview.vansd.org/lschmidt/Projects/The%20Nine%20Types%20of%20Intelligence.htm))]
 
 - Innovativity                  graph-100%
-- Interpersonal                 graph-82%
-- Intrapersonal                 graph-70%
-- Linguistic written            graph-35%
-- Linguistic spoken             graph-75%
 - Logical-mathematical          graph-85%
-- Musical-rhythmic              graph-40%
+- Interpersonal                 graph-82%
+- Linguistic spoken             graph-75%
 - Bodily-kinesthetic            graph-75%
+- Linguistic written            graph-65%
+- Musical-rhythmic              graph-40%
 - Artistic                      graph-20%
 
 
 
 <script>
     var animated = 0
+    var exited_view = true;
     $(window).scroll(function() {
         var graphs = $('.graph')
-        var exited_view = true;
-        if (exited_view) {
-            console.log('called')
-            graphs.each(function(){
-                var graph = $(this).offset().top;
-                var topOfWindow = $(window).scrollTop();
-                var windowHeight = $(window).height();
+        var total_offset = 0;
 
-                if (graph < topOfWindow+windowHeight) {
-                    var bar = $(this)
-                    // bar.removeClass("stretchRight")
-                    window.setTimeout(
-                        function () {
-                            bar.addClass("stretchRight");
-                        }, 10
-                    );
-                }
-            });
-        }
+        graphs.each(function(){
+            var graph = $(this);
+            var graphOffset = graph.offset().top;
+            var topOfWindow = $(window).scrollTop();
+            var windowHeight = $(window).height();
+
+            var content_open = graph.parents('.content').css('display') == 'block' ? true : false;
+
+            if (content_open && graphOffset < topOfWindow+windowHeight 
+                && graphOffset > topOfWindow) {
+                console.log('add')
+                window.setTimeout(
+                    function () {
+                        graph.addClass("stretchRight");
+                    }, 10
+                );
+            } else {
+                console.log('remove')
+                graph.removeClass("stretchRight");
+            }
+        });
     });
 </script>
 
@@ -237,39 +241,97 @@ span-nov[Novice]
         'title' : 'About me'
         'description' : 'A breif summary of my background, ethos and what I get up to when I\'m not coding.'
         'content' : """
-- Born in London lived in London until. 
-- Spent summers in France.
-- University discovered a sense of self.
-- Moved to Spain. Travelling, neuroscience, coding, slacklining. Learned a lot about myself.
-- Moved to Brazil to:
-    - learn Portuguese
-    - improve coding
-    - meet Brazilian family
-    - ?bask? in the sun
+-------
+I was born and raised in a green suburb of London called Richmond. 
+I spent my summers in Antibes, France and lived for one year in 
+Bilbao, Spain. 
 
-started going to AI lessons
-started teaching myself code
+At university I discovered the fruits of independent 
+learning and often studied and attended classes beyond the scope of my course.
+For example, I attended machine learning taught by [Gavin Brown & Co](http://www.cs.man.ac.uk/~gbrown/). 
+I also enjoyed taking part in a number of 
+societies and even created my own, [University of Manchester Slackline
+Society](http://www.facebook.com/groups/uomslackline).
 
-Truth:
-    adventure
-    new experiences 
-    learning
-    being different
-    travelling
-    find work fulfilling but nothing more fulfilling than being with those that you love
-    shoutout to family in london and photo
+I like to work on things that I can be proud of. I
+think its important to like what you do and work for things you
+believe in. I also think its important to balance work with sport and adventure.
 
-Aim:
-    Demonstrate good morals
-    Like learning
-    1 paragraph
+I recently (December 2013) moved to Brazil for three reasons (no particular
+order):
+1. Become fluent in Portuguese. I am half-Brazilian and it pains me that
+I never learned Portuguese at home even though I learned French growing 
+up and speak Spanish fairly well.
+2. Meet my Brazilian family!
+3. Because I can! Travel broadens the mind.
 
-Interests 
-    - slacklining
-    - cycling
-    - coffee
-    - gymnastics
-    - music
+Whilst here I would like to work in a Brazilian company. I have a few preferences
+for types of company and positions but there are two important criteria that I am 
+looking for. Firstly, the company has a good ethos (ie the employees 
+work because they enjoy what they do, not just for money). Secondly, the company is
+not set in its ways and celebrates creativity and innovation. (If you satisfy 
+these please contact `;-)`).
+
+
+<hr>
+##Interests
+
+###Coding
+I spend a lot of my free time making fun things and learning new technologies.
+I've talked quite a lot about coding in the other sections so I won't repeat myself.
+
+###Slackline
+Inspired by this [incredible video](http://www.youtube.com/watch?v=55lfGEjnjoc) 
+I was determined to begin slacklining. 
+In October 2011 I bought my first slackline and got into the slackline scene
+in Bilbao, Spain. Not long after I competed in slackline competitions such as
+in this [video](http://www.youtube.com/watch?v=TCaj_6_kxnE) and that [video](http://vimeo.com/68002964). 
+More recently I starred in a [music video](http://www.youtube.com/watch?v=LrFMbNH-w9I).
+
+###Music
+I don't like commercial/chart music (for the vast majority). I prefer music from
+all over the world and enjoy hearing different sounds. Here is a 
+[small playlist](http://www.youtube.com/playlist?feature=edit_ok&list=PLjOro5tPjsWpOXHH6jASK5eqWJdF1cV-d) I
+put together, it features Cuban music, Brazilian music, Arabic music, 
+African reggae and some others.
+
+###Coffee
+Huge fan of coffee. I am interested in how brewing parameters (e.g. extraction time,
+pressure, heat) can affect the taste and particularly strength of the coffee.
+
+###Learning
+I love learning new things and I am currently having a lot of fun trying out gymnastics.
+Hopefully learn some capoeira whilst in Brazil, as well as Forró being on my list.
+
+###Cycling
+I think cycling is simply a better way to travel. Indeed I like cycling 
+so much I have travelled thousands of miles through europe on my bike.
+This illustrates my point nicely:
+<img style="display:block;height:630px" src="img/cycling-is-better.jpg"/>
+
+
+----------
+###Inspiring things
+I have wanted to make this list for a while but never got round to it.
+The internet can be an inspiring place sometimes. Here are a few things 
+which have inspired me:
+
+1. [Regrets of the dying](http://www.inspirationandchai.com/Regrets-of-the-Dying.html).
+Stories of a palliative care nurse who asked her patients if they had any regrets 
+before they were about to die. Here are the top 5.
+2. [TED](http://www.ted.com/) is an amazing place to fnd inspiring people and this is an 
+[amazing guy](http://www.ted.com/talks/william_kamkwamba_how_i_harnessed_the_wind.html).
+3. [Here is somebody](http://www.youtube.com/watch?v=G6CVj5IQkzk) who really challenges 
+conventional thinking and I really respect as a
+visionary. He was a prominent feature in my decision to study neuroscience.
+4. I learned programming online and stumbled on some C lectures taught by the exceptional 
+Richard Buckland. I was enthused by his passion for computer science and probably 
+would not have pursued it until now if it was not for him. Here is 
+[a less technical lecture](http://www.youtube.com/watch?v=Nq9tjwFI4y0)
+he made which I believe is relevant to all.
+5. As mentioned above [here is the video](http://www.youtube.com/watch?v=55lfGEjnjoc) 
+which inspired me to start slacklining. Also see 
+[this amazing one](http://www.youtube.com/watch?v=CmuMSnT9ISU).
 
 """
     }, {
@@ -277,23 +339,25 @@ Interests
         'title' : 'Contact'
         'description' : 'My personal details, online accounts and references.'
         'content' : """
-email: dalberto.adler@gmail.com\n
-number: 0044 7891 946 982
+
+<table class="">
+  <tr class="">
+    <td><i class="fa fa-envelope"></i></td>
+    <td style="padding-left:2em">dalberto.adler@gmail.com</td>
+  </tr>
+  <tr>
+    <td ><i class="fa fa-phone"></i></td>
+    <td style="padding-left:2em">07891 946 982</td>
+  </tr>
+</table>
 
 ##References
-span-date[Autumn 2013] **Joshua Wohle** - Cheif Production Oﬃcer and manager at SuperAwesome.
-
-joshua@superawesome.tv
-
-
-span-date[2011-2012] **Doctor Markel Olabarria** - Supervisor for one year during laboratory placement.
-
-markelolaba@gmail.com
-
-
-span-date[2009-2013] **Professor Richard Baines** - Personal advisor over four year period during university.
-
-richard.baines@manchester.ac.uk
+- span-date[Autumn 2013] **Joshua Wohle** - Cheif Production Oﬃcer and manager at SuperAwesome.
+[joshua@superawesome.tv](#)
+- span-date[2011-2012] **Doctor Markel Olabarria** - Supervisor for one year during laboratory placement.
+[markelolaba@gmail.com](#)
+- span-date[2009-2013] **Professor Richard Baines** - Personal advisor over four year period during university.
+[richard.baines@manchester.ac.uk](#)
 
 """
     }

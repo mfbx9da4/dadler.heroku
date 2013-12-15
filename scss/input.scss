@@ -1,15 +1,47 @@
-@import url(http://fonts.googleapis.com/css?family=Fenix|Antic+Slab|Poiret+One|Montez|Flamenco);
+// @import url(http://fonts.googleapis.com/css?family=Fenix|Antic+Slab|Poiret+One|Montez|Flamenco);
+//  src: local("Dr Sugiyama Regular"), 
+// local("DrSugiyama-Regular")
+// }
 
 $calm_blue : rgba(60, 110, 201, 0.7);
-$url_blue : #41b7d8;
+$url_blue : #4183c4;
 $desat_green : desaturate(#758918, 40%);
 $desat_brown : #87683B;
-$charcoal : rgba(68, 56, 58, 1);
+$charcoal_blue : #324079;
+
+@font-face
+{
+	font-family: 'Flamenco';
+	src: url('../fonts/Flamenco/Flamenco-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'OpenSans';
+	src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype'),
+	url('../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype'),
+	url('../fonts/Open_Sans/OpenSans-Italic.ttf') format('truetype')
+	;
+}
+@font-face
+{
+	font-family: 'SourceCodePro';
+	src: 
+	url('../fonts/SourceCodePro/SourceCodePro-Regular.ttf') format('truetype'),
+	url('../fonts/SourceCodePro/SourceCodePro-Bold.ttf') format('truetype'),
+	url('../fonts/SourceCodePro/SourceCodePro-Light.ttf') format('truetype'),
+	url('../fonts/SourceCodePro/SourceCodePro-Black.ttf') format('truetype')
+	;
+}
+
+	
+
 html, body {
   height:100%;
   width: 100%;
   background-color: white;
-  font-family: Sans-serif;
 }
 
 *, *:before, *:after {
@@ -23,7 +55,7 @@ html, body {
 }
 
 span.date {
-	background-color: $charcoal;
+	background-color: $charcoal_blue;
 	color: white;
 	float: right;
 	padding: 0 0.5em;
@@ -33,20 +65,21 @@ span.date {
 a {
 	color: $url_blue;
 	text-decoration: none;
-	border-bottom: .07em solid rgba(0,0,0,.1);
-	padding-bottom: .07em;
 	a:link {
 		-webkit-tap-highlight-color: rgba(229,59,44,.4);
 	}
 	&:hover {
-		border-bottom: .07em solid #41b7d8;
+		padding-bottom: .07em;
+		border-bottom: .2em dashed rgba(0,0,0,.1);
 	}
 }
 
 
 .main {
+	font-family: OpenSans;
 	.section {
 		.item {
+			font-family: OpenSans;
 			float: left;
 			width: 30em;
 			height: 13em;
@@ -77,11 +110,11 @@ a {
     .content {         
     	clear: both;
     	.date {
-    		font-family: Courier;
+    		font-family: SourceCodePro;
 		}
 		h3 {         }
 		li {
-			font-family: Courier;
+			font-family: SourceCodePro;
 			list-style-image:url(img/bullet.jpg);         
 		}         
 		.discrete {             
@@ -117,6 +150,9 @@ a {
 				height: 1em;
 				display: block;
 			}
+		}
+		.shiftedUp {
+			margin-top: -1em;
 		}
 
 	}

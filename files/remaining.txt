@@ -4,28 +4,26 @@ fazer
 ficar
 querer
 comer
-beber
 usar
 andar
-acordar 
-dormir
+poder
+saber
+encontrar
+
 limpar
 cozinhar
-poder
 ler
-saber
-melhorar
 sentir
 sentar
-consultar
+melhorar
 morar
-nadar
-perguntar
-machucar 
-encontrar
 jogar
+
+consultar
+
+nadar
+machucar 
 descobrir
-achar
 procurar
 seguir
 tentar
@@ -34,7 +32,6 @@ desistir
 pensar
 existir
 sofrer
-amar
 informar
 levantar
 cair
@@ -66,6 +63,8 @@ nós temos/podemos/somos/vamos/fomos
 eles tem/podem/são/vão/foram
 
 CONNECTIONS
+primera, segundo, terca
+umo, dos, tres, quatro, cuinqo, des
 também
 ainda
 mesmo
@@ -175,3 +174,4 @@ nervoso/tranquilo
 cansado / descansado
 amigo/inimigo/conhecido
 querido
+
