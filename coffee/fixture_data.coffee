@@ -82,7 +82,7 @@ transgenic mouse model of Alzheimer’s disease. Developed skills in data analys
 
 span-date[Summer 2011]
 
-###Estate Agent, <span class="discrete"><a href="http://imperialhomes.w8.co.uk">Imperial Homes</a>, Kensington, London, UK.</span>
+###Estate Agent, <span class="discrete"><a href="http://www.topimperialhomes.com/">Imperial Homes</a>, Kensington, London, UK.</span>
 - Property negotiator in high-proﬁle sales and lettings. Thrived in high-pressure
 negotiation situations and maintained composure in precarious deals.
 - Demonstrated competency in customer relations when conducting viewings and
@@ -96,10 +96,21 @@ conversations in a professional manner.
         'title' : 'Portfolio'
         'description' : 'Weekend proejcts and things that I\'m proud of.'
         'content' : """
+---------
 ###[Front-end automator](http://spritesheet-gen.herokuapp.com/campaign/Sks6OUwjp/)
 - Automates CSS positioning and sprite cropping using image detection algorithms and HTML5 canvas.
 
 span-date[2012-2013]
+
+###Youtube playlist manager
+- An open source project I contributed to.
+
+###Puzzle-game
+- Small HTML5 canvas game I built which even works in the infamous IE8.
+
+###Rhythmludus
+- Side project with a friend.
+- The intention is to teach users rhythm by playing the game.
 
 ###Artiﬁcial neuron-astrocyte network
 - Final year project
@@ -107,6 +118,12 @@ span-date[2012-2013]
 ###Google docs referencing system
 - Small project but neat solution. Using google apps script.
 
+###Project Euler
+- I love a PE problem from time-to-time.
+- My username is `mfbx9da4`, you can see my progress by adding my as a friend. 
+
+---------------
+###Find me on <a href="https://github.com/mfbx9da4/" class="fa fa-2x fa-github"></a>
 
 """
     }, {
@@ -242,6 +259,8 @@ span-nov[Novice, but eager to learn more.]
         'description' : 'A breif summary of my background, ethos and what I get up to when I\'m not coding.'
         'content' : """
 -------
+
+##Self-summary
 I was born and raised in a green suburb of London called Richmond. 
 I spent my summers in Antibes, France and lived for one year in 
 Bilbao, Spain. 
@@ -259,8 +278,9 @@ believe in. I also think its important to balance work with sport and adventure.
 
 I recently (December 2013) moved to Brazil for three reasons (no particular
 order):
+
 1. Become fluent in Portuguese. I am half-Brazilian and it pains me that
-I never learned Portuguese at home even though I learned French growing 
+I never learned Portuguese at home, even though I learned French growing 
 up and speak Spanish fairly well.
 2. Meet my Brazilian family!
 3. Because I can! Travel broadens the mind.
@@ -270,7 +290,7 @@ for types of company and positions but there are two important criteria that I a
 looking for. Firstly, the company has a good ethos (ie the employees 
 work because they enjoy what they do, not just for money). Secondly, the company is
 not set in its ways and celebrates creativity and innovation. (If you satisfy 
-these please contact `;-)`).
+these please contact <i class="fa fa-smile-o"></i>).
 
 
 <hr>
@@ -289,11 +309,11 @@ in this [video](http://www.youtube.com/watch?v=TCaj_6_kxnE) and that [video](htt
 More recently I starred in a [music video](http://www.youtube.com/watch?v=LrFMbNH-w9I).
 
 ###Music
-I don't like commercial/chart music (for the vast majority). I prefer music from
+I am a music snob and don't like commercial/chart music (for the vast majority). I prefer music from
 all over the world and enjoy hearing different sounds. Here is a 
 [small playlist](http://www.youtube.com/playlist?feature=edit_ok&list=PLjOro5tPjsWpOXHH6jASK5eqWJdF1cV-d) I
-put together, it features Cuban music, Brazilian music, Arabic music, 
-African reggae and some others.
+put together, it features Cuban, Brazilian, Arabic, 
+African music and some others.
 
 ###Coffee
 Huge fan of coffee. I am interested in how brewing parameters (e.g. extraction time,
@@ -311,7 +331,7 @@ This illustrates my point nicely:
 
 
 ----------
-###Inspiring things
+##Inspiring things
 I have wanted to make this list for a while but never got round to it.
 The internet can be an inspiring place sometimes. Here are a few things 
 which have inspired me:
@@ -326,7 +346,7 @@ conventional thinking and I really respect as a
 visionary. He was a prominent feature in my decision to study neuroscience.
 4. I learned programming online and stumbled on some C lectures taught by the exceptional 
 Richard Buckland. I was enthused by his passion for computer science and probably 
-would not have pursued it until now if it was not for him. Here is 
+would not have pursued programming until now if it was not for him. Here is 
 [a less technical lecture](http://www.youtube.com/watch?v=Nq9tjwFI4y0)
 he made which I believe is relevant to all.
 5. As mentioned above [here is the video](http://www.youtube.com/watch?v=55lfGEjnjoc) 
@@ -339,25 +359,37 @@ which inspired me to start slacklining. Also see
         'title' : 'Contact'
         'description' : 'My personal details, online accounts and references.'
         'content' : """
-
+##Online accounts
 <table class="">
   <tr class="">
     <td><i class="fa fa-envelope"></i></td>
-    <td style="padding-left:2em">dalberto.adler@gmail.com</td>
+    <td style="padding-left:2em"><a class="email" href="mailto:dalberto.adler@gmail">dalberto.adler@gmail.com</a></td>
   </tr>
   <tr>
     <td ><i class="fa fa-phone"></i></td>
-    <td style="padding-left:2em">07891 946 982</td>
+    <td style="padding-left:2em">0044 7891 946 982</td>
+  </tr>
+  <tr>
+    <td ><i class="fa fa-github"></i></td>
+    <td style="padding-left:2em"><a href="https://github.com/mfbx9da4/">github</a></td>
+  </tr>
+  <tr>
+    <td ><i class="fa fa-stack-overflow"></i></td>
+    <td style="padding-left:2em"><a href="http://stackoverflow.com/users/1376627/david-adler">stack overflow</a></td>
+  </tr>
+  <tr>
+    <td ><i class="fa fa-youtube"></i></td>
+    <td style="padding-left:2em"><a href="http://www.youtube.com/user/mfbx9da4/videos?flow=grid&view=1">youtube</a></td>
   </tr>
 </table>
 
 ##References
 - span-date[Autumn 2013] **Joshua Wohle** - Cheif Production Oﬃcer and manager at SuperAwesome.
-[joshua@superawesome.tv](#)
+<a class="email" href="mailto:joshua@superawesome.tv">joshua@superawesome.tv</a>
 - span-date[2011-2012] **Doctor Markel Olabarria** - Supervisor for one year during laboratory placement.
-[markelolaba@gmail.com](#)
+<a class="email" href="mailto:markelolaba@gmail">markelolaba@gmail.com</a>
 - span-date[2009-2013] **Professor Richard Baines** - Personal advisor over four year period during university.
-[richard.baines@manchester.ac.uk](#)
+<a class="email" href="mailto:richard.baines@manchester.ac.uk">richard.baines@manchester.ac.uk</a>
 
 """
     }
