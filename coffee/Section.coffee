@@ -24,28 +24,52 @@ class window.Section
         """)
         section.content = section.el.find('div.content').css(clear:'both').hide()
         section.item = section.el.find('.item')
+        section.item.width(ITEM_WIDTH)
         section.icon = section.el.find('.icon')
         section.el.find('span.fill').on('click'
             () ->
                 section.toggle_content()
         )
+        $(window).resize(() -> section.resize())
+
+
+    resize: () ->
+        section = @
+        if ITEM_WIDTH >= $('.main').width()
+            section.shrink_icon()
+            window.is_wide = false
+        else
+            window.is_wide = true
+            if !section.content_open
+                section.grow_icon()
+
+    shrink_icon: () ->
+        section = @
+        section.icon.animate({fontSize: '2em'}, 'fast')
+        section.item.animate(
+            width:'100%'
+            height: '7em').find('.description p').hide('fast')
+
+    grow_icon: () ->
+        section = @
+        section.icon.animate({fontSize: '4em'}, 'fast')
+        section.item.animate(
+            width: ITEM_WIDTH
+            height: '13em').find('.description p').show('fast')
 
     render: () ->
+        @.resize()
         return @.el
 
     toggle_content: () ->
         section = @
         section.content_open = !section.content_open
         window.el = section.el
-        
+        section.resize()
 
-        section.content.delay(0).slideToggle()
+        section.content.delay(0).slideToggle('slow')
         if section.content_open
-            section.icon.animate({fontSize: '2em'}, 'fast')
-            section.item.animate(
-                width:'100%'
-                height: '7em').find('.description p').hide('fast')
-            
+            section.shrink_icon()            
             # scroll
             window.setTimeout(
                 () ->
@@ -53,11 +77,8 @@ class window.Section
                 500
             )
         else 
-            section.icon.animate({fontSize: '4em'}, 'fast')
-            section.item.animate(
-                width: '30em'
-                height: '13em').find('.description p').show('fast')
-            
+            if window.is_wide
+                section.grow_icon()
             # scroll
             window.setTimeout(
                 () ->

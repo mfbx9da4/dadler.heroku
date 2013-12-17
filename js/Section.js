@@ -16,13 +16,56 @@
         clear: 'both'
       }).hide();
       section.item = section.el.find('.item');
+      section.item.width(ITEM_WIDTH);
       section.icon = section.el.find('.icon');
       section.el.find('span.fill').on('click', function() {
         return section.toggle_content();
       });
+      $(window).resize(function() {
+        return section.resize();
+      });
     }
 
+    Section.prototype.resize = function() {
+      var section;
+      section = this;
+      if (ITEM_WIDTH >= $('.main').width()) {
+        section.shrink_icon();
+        return window.is_wide = false;
+      } else {
+        window.is_wide = true;
+        if (!section.content_open) {
+          return section.grow_icon();
+        }
+      }
+    };
+
+    Section.prototype.shrink_icon = function() {
+      var section;
+      section = this;
+      section.icon.animate({
+        fontSize: '2em'
+      }, 'fast');
+      return section.item.animate({
+        width: '100%',
+        height: '7em'
+      }).find('.description p').hide('fast');
+    };
+
+    Section.prototype.grow_icon = function() {
+      var section;
+      section = this;
+      section.icon.animate({
+        fontSize: '4em'
+      }, 'fast');
+      return section.item.animate({
+        width: ITEM_WIDTH,
+        height: '13em'
+      }).find('.description p').show('fast');
+    };
+
     Section.prototype.render = function() {
+      this.resize();
       return this.el;
     };
 
@@ -31,28 +74,19 @@
       section = this;
       section.content_open = !section.content_open;
       window.el = section.el;
-      section.content.delay(0).slideToggle();
+      section.resize();
+      section.content.delay(0).slideToggle('slow');
       if (section.content_open) {
-        section.icon.animate({
-          fontSize: '2em'
-        }, 'fast');
-        section.item.animate({
-          width: '100%',
-          height: '7em'
-        }).find('.description p').hide('fast');
+        section.shrink_icon();
         return window.setTimeout(function() {
           return $('body, html').animate({
             scrollTop: section.item.offset().top
           }, 'slow', 'swing');
         }, 500);
       } else {
-        section.icon.animate({
-          fontSize: '4em'
-        }, 'fast');
-        section.item.animate({
-          width: '30em',
-          height: '13em'
-        }).find('.description p').show('fast');
+        if (window.is_wide) {
+          section.grow_icon();
+        }
         return window.setTimeout(function() {
           return $('body, html').animate({
             scrollTop: section.item.offset().top

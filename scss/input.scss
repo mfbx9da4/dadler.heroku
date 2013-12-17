@@ -94,7 +94,6 @@ code {
 		.item {
 			font-family: OpenSans;
 			float: left;
-			width: 30em;
 			height: 13em;
 			position: relative;
 			margin-right: 0.2em;
@@ -121,6 +120,7 @@ code {
         }    
     }     
     .content {         
+    	overflow-x: hidden;
     	clear: both;
     	.date {
     		font-family: SourceCodePro;

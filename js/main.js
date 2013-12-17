@@ -44,18 +44,19 @@
       return text.replace(/(\w*)-(\w*)\[(.*)]/gi, "<$1 class='$2'>$3</$1>");
     });
     window.converter.hooks.chain("preConversion", function(text) {
-      return text.replace(/graph-(\d\d\d?)%/gi, '<div style="width:30em"><div class="animated graph" style="width: $1%;"></div></div>');
+      return text.replace(/graph-(\d\d\d?)%/gi, '<div class="graph-container" style="width:30em"><div class="animated stretchRight graph" style="width: $1%;"></div></div>');
     });
+    window.ITEM_WIDTH = 480;
     window.container.append(main_container);
     cv_sections = [];
     _ref = window.cv_sections;
     for (_i = 0, _len = _ref.length; _i < _len; _i++) {
       data = _ref[_i];
-      sect = new window.Section(data.icon, data.title, data.description, data.content);
+      sect = new Section(data.icon, data.title, data.description, data.content);
       cv_sections.push(sect.render());
     }
     $('.main').append(cv_sections);
-    return $('span.fill').hover(function(e) {
+    $('span.fill').hover(function(e) {
       return $(e.target).parent().parent().parent().css({
         backgroundColor: 'rgba(128, 128, 128, 0.1)',
         opacity: 0.8
@@ -65,6 +66,21 @@
         backgroundColor: 'transparent',
         opacity: 1
       });
+    });
+    return $(window).scroll(function() {
+      var elem, wind, _j, _len1, _ref1, _results;
+      wind = $(this);
+      _ref1 = $('.responsive, .graph-container');
+      _results = [];
+      for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
+        elem = _ref1[_j];
+        if ($(elem).width() >= wind.width()) {
+          _results.push($(elem).width('100%'));
+        } else {
+          _results.push(void 0);
+        }
+      }
+      return _results;
     });
   };
 

@@ -1,4 +1,4 @@
-F# coffee -o js/ -cw coffee/
+# coffee -o js/ -cw coffee/
 $(window).ready ->
     main()
 
@@ -44,13 +44,13 @@ writeMain = () ->
     window.converter.hooks.chain("preConversion",  (text) ->
         return text.replace(/(\w*)-(\w*)\[(.*)]/gi, "<$1 class='$2'>$3</$1>")
     )
-        return text.replace(/graph-(\d\d\d?)%/gi, '<div style="width:30em"><div class="animated stretchRight graph" style="width: $1%;"></div></div>')
+    window.converter.hooks.chain("preConversion",  (text) ->
+        return text.replace(/graph-(\d\d\d?)%/gi, '<div class="graph-container" style="width:30em"><div class="animated stretchRight graph" style="width: $1%;"></div></div>')
     )
-
+    window.ITEM_WIDTH = 480
     window.container.append(main_container)
     cv_sections = []
     for data in window.cv_sections
-    window.converter.hooks.chain("preConversion",  (text) ->
         sect = new Section(data.icon, data.title, data.description, data.content)
         cv_sections.push(sect.render())
     $('.main').append(cv_sections)
@@ -59,5 +59,10 @@ writeMain = () ->
             $(e.target).parent().parent().parent().css({backgroundColor: 'rgba(128, 128, 128, 0.1)', opacity: 0.8})
         (e) ->
             $(e.target).parent().parent().parent().css({backgroundColor: 'transparent', opacity: 1})
-        )
-
+    )
+    $(window).scroll(() ->
+        wind = $ @
+        for elem in $ '.responsive, .graph-container'
+            if $(elem).width() >= wind.width()
+                $(elem).width('100%')   
+    )

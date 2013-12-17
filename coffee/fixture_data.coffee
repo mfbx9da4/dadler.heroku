@@ -95,12 +95,10 @@ conversations in a professional manner.
         'icon' : 'fa-code'
         'title' : 'Portfolio'
         'description' : 'Weekend proejcts and things that I\'m proud of.'
-        'content' : """
----------
+        'content' : """<hr>
+
 ###[Front-end automator](http://spritesheet-gen.herokuapp.com/campaign/Sks6OUwjp/)
 - Automates CSS positioning and sprite cropping using image detection algorithms and HTML5 canvas.
-
-span-date[2012-2013]
 
 ###Youtube playlist manager
 - An open source project I contributed to.
@@ -112,6 +110,7 @@ span-date[2012-2013]
 - Side project with a friend.
 - The intention is to teach users rhythm by playing the game.
 
+span-date[2012-2013]
 ###Artiﬁcial neuron-astrocyte network
 - Final year project
 
@@ -167,7 +166,7 @@ span-date[2012-2013]
 <hr>
 ###Technologies by color:
 
-<div style="width:50em; line-height:2em;">
+<div class="responsive" style="width:50em; line-height:2em;">
 
 span-pro[python]
 span-nov[ruby]
@@ -237,14 +236,12 @@ span-nov[Novice, but eager to learn more.]
 
             if (content_open && graphOffset < topOfWindow+windowHeight 
                 && graphOffset > topOfWindow) {
-                console.log('add')
                 window.setTimeout(
                     function () {
                         graph.addClass("stretchRight");
                     }, 10
                 );
             } else {
-                console.log('remove')
                 graph.removeClass("stretchRight");
             }
         });

@@ -57,7 +57,6 @@ code {
   .main .section .item {
     font-family: OpenSans;
     float: left;
-    width: 30em;
     height: 13em;
     position: relative;
     margin-right: 0.2em; }
@@ -77,6 +76,7 @@ code {
       .main .section .item span.fill:hover {
         cursor: pointer; }
   .main .content {
+    overflow-x: hidden;
     clear: both; }
     .main .content .date {
       font-family: SourceCodePro; }

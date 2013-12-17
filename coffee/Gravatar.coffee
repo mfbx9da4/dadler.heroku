@@ -1,7 +1,8 @@
 class window.Gravatar
     constructor: (@src) ->
-        @el = $('<img class="" id="gravatar" src="' + @src + '" />')
-        @el.position().top
+        gravatar = @
+        gravatar.el = $('<img class="" id="gravatar" src="' + gravatar.src + '" />')
+        gravatar.el.position().top
         css_params = 
             position: 'absolute'
             cursor: 'pointer'
@@ -10,18 +11,26 @@ class window.Gravatar
             opacity: 0
             width: 0
             height: 0 
-        @el.css(css_params)
-        @el.hover(
+        gravatar.el.css(css_params)
+        gravatar.el.hover(
             (e) ->
                 $('#my-name').addClass('hover')
             (e) ->
                 $('#my-name').removeClass('hover')
         )   
-        @el.click(
+        gravatar.el.click(
             (e) ->
                 e.preventDefault()
                 location.reload()
         )
+        $(window).resize(() -> gravatar.resize())
+
+    resize: () ->
+        gravatar  = @
+        if gravatar.el.offset().left < 20
+            gravatar.el.hide()
+        else
+            gravatar.el.show()
 
     show: (onComplete)->
         dim =  90
@@ -31,6 +40,7 @@ class window.Gravatar
                 width:  dim
                 opacity: 1
                 height: dim
+                display: 'block'
             duration: 200
             complete: () ->
                 onComplete())
