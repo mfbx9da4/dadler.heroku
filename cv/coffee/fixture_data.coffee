@@ -324,7 +324,7 @@ Hopefully learn some capoeira whilst in Brazil, as well as Forró being on my li
 I think cycling is simply a better way to travel. Indeed I like cycling 
 so much I have travelled thousands of miles through europe on my bike.
 This illustrates my point nicely:
-<img style="display:block;height:630px" src="img/cycling-is-better.jpg"/>
+<img style="display:block;height:630px" src="/static/img/cycling-is-better.jpg"/>
 
 
 ----------

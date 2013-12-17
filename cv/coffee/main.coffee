@@ -11,7 +11,7 @@ writeTitle = () ->
     title_container = $('<div class="centered title-container"></div>').appendTo header_container
     
     # append gravatar
-    gravatar = new window.Gravatar("img/da-gravatar.jpg");
+    gravatar = new window.Gravatar("/static/img/da-gravatar.jpg");
     title_container.append gravatar.el
 
     # append title

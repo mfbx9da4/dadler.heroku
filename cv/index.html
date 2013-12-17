@@ -1,3 +1,5 @@
+{% load staticfiles %}
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -13,14 +15,13 @@
         <link rel="stylesheet" href="../../stylesheets/coloringpage.css" type="text/css" media="screen, projection" />
         <link rel="stylesheet" href="../../stylesheets/coloringpageprint.css" type="text/css" media="print" />
 
-
-        <link rel="stylesheet" href="css/jqueryui.css">
-        <link rel="stylesheet" href="css/justin.animations.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/output.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/jqueryui.css">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/justin.animations.css">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/animate.css">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/normalize.min.css">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/output.css">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/main.css">
         <div id="fb-root"></div>
         <script>
         // fb_like
@@ -38,7 +39,7 @@
         // });
 
         </script>
-        <!-- // <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
+        <!-- // <script src="{{STATIC_URL}}js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -46,7 +47,6 @@
         <![endif]-->
 
         <!-- <a href="javascript:window.print()"><i class="fa fa-print"></i></a> -->
-
         <div class="container fadeInLeftBig animated">
             <div class="header-container">
                 <!-- <div class="fb-like" data-href="https://davidadler.me" data-width="12" data-layout="box_count" data-action="like" data-show-faces="false" data-share="true"></div> -->
@@ -54,17 +54,17 @@
 
         </div> 
 
-        <script type="text/javascript" src="js/vendor/Markdown.Converter.js"></script>
-        <script type="text/javascript" src="js/vendor/Markdown.Sanitizer.js"></script>
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/vendor/jqueryui.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script type="text/javascript" src="{{STATIC_URL}}js/vendor/Markdown.Converter.js"></script>
+        <script type="text/javascript" src="{{STATIC_URL}}js/vendor/Markdown.Sanitizer.js"></script>
+        <script src="{{STATIC_URL}}js/vendor/jquery.js"></script>
+        <script src="{{STATIC_URL}}js/vendor/jqueryui.js"></script>
+        <script>window.jQuery || document.write('<script src="{{STATIC_URL}}js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-        <script src="js/fixture_data.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/Gravatar.js"></script>
-        <script src="js/Section.js"></script>
-        <script src="js/main.js"></script>
+        <script src="{{STATIC_URL}}js/fixture_data.js"></script>
+        <script src="{{STATIC_URL}}js/plugins.js"></script>
+        <script src="{{STATIC_URL}}js/Gravatar.js"></script>
+        <script src="{{STATIC_URL}}js/Section.js"></script>
+        <script src="{{STATIC_URL}}js/main.js"></script>
 
     </body>
 </html>

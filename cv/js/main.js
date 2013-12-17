@@ -15,7 +15,7 @@
     var gravatar, header_container, title, title_container;
     header_container = $('.header-container');
     title_container = $('<div class="centered title-container"></div>').appendTo(header_container);
-    gravatar = new window.Gravatar("img/da-gravatar.jpg");
+    gravatar = new window.Gravatar("/static/img/da-gravatar.jpg");
     title_container.append(gravatar.el);
     title = $('<h1 id="my-name" class="animated fadeInDown">David Adler</h1>');
     title.on('click', function(event) {
