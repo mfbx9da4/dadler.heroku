@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
@@ -79,15 +78,6 @@ USE_TZ = True
 
 EXPIRES = 100000
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.6/howto/static-files/
-
-STATIC_URL = '/static/'
-
-TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'cv'),
-    )
-
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
 DATABASES['default'] =  dj_database_url.config()
@@ -98,16 +88,23 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
 
+
 # Static asset configuration
+TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
 STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 
 
-
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'cv'),
-    os.path.join(BASE_DIR, 'cv/fonts'),
-    os.path.join(BASE_DIR, 'cv/fonts/Flamenco'),
+    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'static/css'),
+    os.path.join(BASE_DIR, 'static/css/'),
+    os.path.join(BASE_DIR, 'static/js'),
+    os.path.join(BASE_DIR, 'static/js/'),
+    os.path.join(BASE_DIR, 'staticfiles/css'),
+    os.path.join(BASE_DIR, 'staticfiles/css/'),
+    os.path.join(BASE_DIR, 'staticfiles/js'),
+    os.path.join(BASE_DIR, 'staticfiles/js/'),
 )
 
 

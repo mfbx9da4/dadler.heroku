@@ -12,3 +12,6 @@ from django.conf import settings
 def home(request):
     context = RequestContext(request)
     return TemplateResponse(request, 'index.html', context)
+
+def list_static(request):
+	return HttpResponse(settings['STATICFILES_DIRS'], content_type='text')
