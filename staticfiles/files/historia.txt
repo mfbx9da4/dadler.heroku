@@ -1,0 +1,96 @@
+-----------
+1 = persona 1
+2 = persona 2
+
+------------
+#accorder, cafe de manha, entem noite
+
+1 Bom dia, voce acabo de levantar?
+2 Oi, tudo bem, sim, eu dormi muito bem.
+
+1 sim ta come forme?
+2 nao tenho sono
+
+1 quires dormir mas um poco
+2 nao tenho que acordar agora
+
+1 porque?
+2 porque tenho que vir en na centro cuidad pra comprar coisas
+
+1 que coisas?
+2 remedios
+
+1 esta duente?
+2 sim, desde entem noite.
+
+1 porque, que esta fasendo entem noite?
+2 Estava bebendo y falando com amigos en um bar. Creo que estoy duente poque eu fumado de mas cigaros.
+
+1 ta, voce encontré gente?
+2 sim, eu vindo uma maginha muito boa y eu commenço a falar com ela.
+
+1 y...
+2 y sim mas. ela travala en un banco, nos dançamos um poco y eu pego sua numero.
+
+1 Voce vai MEET autro vez?
+2 Acho que sim, eu vo perguntar hoji si ela queir veinir commigo a ver uma filma y andar alado de rio.
+
+1 Ahh muito bom! Quires comer antes que voce vais?
+2 sim
+
+1 ta, estoy cozinhendo ovos com tomate y quiejo? gosta d'isso?
+2 sim gosto, mas nao gosto de queijo. tambem tenho sede, voce tein cafe. 
+
+1 sim, mas e melhor beber agua com cafe de manha. 
+2 posso ajudar voce?
+
+1 sim, cortar pao com esa faca y limpiar pratos.
+2 ta, vo tomar bano y escovar dentes agora y depoi faser isso.
+
+========
+# meeting somebody new, explain when arrived, differences in accents, speak the language well.
+# differences in culture, first impressions, what else you will do, sayings are the hardest thing.
+# whether working. weather. traffic. be careful theives.
+# traffic is crazy, weather, accents, do you have good places to go
+# what do you like (bar, sport, history)
+
+1 de ondé eres?
+2 inglaterra
+
+1 verdade? que legal. É venido aqui antes?
+2 Sim, tres vecs. O primero com meu pãe quando tenido quatro años y o segundo com minha mãe quando tenido cuinqo años.
+
+1 A y cuanto años voçe tein agora
+2 Vingte-trés, entoun não lembro muinto bom de issos veces.
+
+1 Ahh, ta. Y quando chego.
+2 Eu chego uma semana antes.
+
+1 Entou voçe falas muinto bom.
+2 Obrigado, é muito sympatico mas no consego a falar com um accento nativo.
+
+1 É normal. Gente de aquí gosta muinto de accento inglés né?
+2 Sim verdade, mas eu amo eu accento de aqui, é muinto mas sauvé. Tambem la cultura aquí é muinto mas relaxado y gente são mas amigoso, né?
+
+1 Sim, mas dependé de ondé voçe vai. É como tudo o mundo, tem citios muinto perigrosso y autros muinto melhores. Eu penso que a problema aqui é que o governo aquí é muinto ruím. É por isso que se podi ver muinto gente pauvre soferendo ena rua aquí. Por quanto tiempo voçe vai ficar aquí?
+2 Dies mes.
+
+1 Ahh muito bom, que voçe vai faser?
+2 Eu não sei exactemente. Eu queiro travallar ó estudiar, más por agora eu prefiero que ficar aquí y profitar de sol y praya.
+
+
+========
+
+- where do i go to meet people?
+- meetups? coding conventions? good places to code? hackathons?
+- good areas to look for jobs?
+- what is a good job in brazil?
+- how well does it pay?
+- finding jobs in rio?
+- things to do in SP?
+- how things are at twitter? internship guy
+- chances of getting an internship there?
+- do you play football or do sport?
+- good places to go out?
+- what does he code in... emberjs, TDD, python, ruby, go, linux
+- been to london
