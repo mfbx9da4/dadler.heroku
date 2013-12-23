@@ -3,7 +3,7 @@ $calm_blue : rgba(60, 110, 201, 0.7);
 $url_blue : #4183c4;
 $desat_green : desaturate(#758918, 40%);
 $desat_brown : #87683B;
-$charcoal_blue : #324079;
+$charcoal_blue : #3F486F;
 
 @font-face
 {
@@ -29,6 +29,16 @@ $charcoal_blue : #324079;
 	url('/static/fonts/SourceCodePro/SourceCodePro-Bold.ttf') format('truetype'),
 	url('/static/fonts/SourceCodePro/SourceCodePro-Light.ttf') format('truetype'),
 	url('/static/fonts/SourceCodePro/SourceCodePro-Black.ttf') format('truetype')
+	;
+}
+
+@font-face
+{
+	font-family: 'Ubuntu';
+	src: 
+	url('/static/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype'),
+	url('/static/fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype'),
+	url('/static/fonts/Ubuntu/Ubuntu-Italic.ttf') format('truetype')
 	;
 }
 
@@ -134,8 +144,10 @@ code {
 			text-indent: 2em;         
 		}         
 		.pro, .med, .nov {             
-			padding:0.2em 1em;             
+			padding: 0.1em 1em;             
 			border-radius: 1em;         
+			margin: 0.2em 0.01em;
+			display: inline-block;
 		}         
 		.pro {
 			background-color: darkslategray;             
@@ -194,7 +206,6 @@ code {
 		width: 25em;
 		margin:0 auto;
 		position: relative;
-
 		#gravatar {
 			border-radius: 50%;
 			&:hover, &.hover{

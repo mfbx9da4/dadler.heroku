@@ -8,7 +8,7 @@ window.cv_sections = [
 
 span-date[2009–2013]
 ###2:1 (69%) BSc Honours Neuroscience, span-discrete[University of Manchester, UK.]
-- Ranked 8th best university in the UK and 64th in the World. Most nobel lauriettes in the UK.
+- University of Manchester is ranked [40th in the world and 7th in Europe](http://www.manchester.ac.uk/aboutus/facts/).
 - Averaged 1st in core neuroscience modules.
 - Demonstrated drive and creativity by designing my own ﬁnal year project *de novo*.
 - Project (awarded 1st): Challenged the validity of a pioneering artiﬁcial intelligence algorithm. Created my own computational model of learning networks of the brain. Gained experience in computational modelling and machine learning.
@@ -17,6 +17,7 @@ span-date[2009–2013]
 
 span-date[2007–2009]
 ###A levels, span-discrete[Ibstock Place School, London, UK.]
+- Ranked in [top 1.5%](http://www.ibstockplaceschool.co.uk/About-Us) of all UK schools
 - Physics (B), Maths (B), Biology (B). 
 - AS level: French (B).
 
@@ -33,7 +34,7 @@ span-date[2004–2006]
 - English (native).
 - French (proﬁcient), ~ 2 years living in France.
 - Spanish (intermediate), 1 year living in Spain.
-- Portuguese (intermediate).
+- Portuguese (intermediate), currently living in Brazil.
 
 <hr/>
 
@@ -96,28 +97,56 @@ conversations in a professional manner.
         'icon' : 'fa-code'
         'title' : 'Portfolio'
         'description' : 'Weekend proejcts and things that I\'m proud of.'
-        'content' : """<hr>
+        'content' : """(This area is under dev. More links coming soon.)
+<hr>
 
 span-date[Autumn 2013]
 ###[Front-end automator](http://spritesheet-gen.herokuapp.com/campaign/Sks6OUwjp/)
 - Automates CSS positioning and sprite cropping using image detection algorithms and HTML5 canvas.
+- In other words: input a spritesheet and a background image, outputs a bunch of HTML, CSS and a fully
+functioning website. Turns several hours into seconds.
 
 span-date[Autumn 2013]
 ###Youtube playlist manager
-- An open source project I contributed to.
+- An open source project which I contributed to.
+- Specifically, I introduced the ability to automatically replace deleted videos in playlists
+with other equivalent youtube videos.
 
 span-date[Autumn 2013]
 ###Puzzle-game
-- Small HTML5 canvas game I built which even works in the infamous IE8.
+- Small HTML5 canvas game I built which **even** works in the infamous IE8.
 
 span-date[Summer 2013]
-###Rhythmludus
-- Side project with a friend.
+###[Rhythmludus (incomplete)](http://rhythmludus.appspot.com/game?song=song_one_track_low.xml&back=file.mp3)
+- Side project with my friend [Jessie](https://github.com/jessie93).
+- HTML5 canvas guitar hero-like game for playing rhythms with keys. Also comes with 
+a rhythm composer. Rhythms are stored as XML and site uses python and google app engine for 
+backend.
 - The intention is to teach users rhythm by playing the game.
+- *Why?:* I have been trying to learn how to play an Egyptian hand drum 
+called a <a href="http://www.youtube.com/watch?v=abUAzg9PR9Y">darbuka</a>. 
+I found it hard to learn new rhythms, harder to make up new rhythms and 
+hardest to play in time with other people or songs. I thought a guitar-hero 
+like interface may simplify the learning process and so we started coding ...
 
 span-date[2012-2013]
 ###Artiﬁcial neuron-astrocyte network
-- Final year project
+- Final year computational neuroscience project.
+- This project involved the development of one of the first ever computational models of a learning neuron-astrocyte network.
+- *Background:* Contrary to popular belief, neurons are not the only 
+cells in the brain which perform learning and cognitive functions. 
+For decades, artificial intelligence researchers have made computational models 
+of neural networks but failed to acknowledge the role of astrocytes. 
+My work presents a novel model of neuron-astrocyte networks and challenges 
+one of the pioneering neuron-astrocyte network models. If you are interested in a more
+comprehensive background information on the topic please read [this essay](/files/lit_review.pdf) I wrote.
+- *Why?:* While on placement in Spain, I was researching the role of astrocytes in Alzheimer's disease. 
+I was fascinated by the fact that their abundance and diversity is proportional to intelligence and yet 
+their role in intelligence is largely overlooked.
+
+At the time I was also curious about artificial intelligence (AI) and was intrigued to see 
+how AI researchers had modelled astrocytes. Suprisingly, few researchers had made 
+computational models of astrocytes, and so my project began. 
 
 span-date[Autumn 2012]
 ###Google docs referencing system
@@ -162,7 +191,6 @@ span-date[Autumn 2012]
             <li>internet explorer</li>
             <li>flash</li>
             <li>javascript</li>
-            <li>php</li>
             <li>windows</li>
         </ol>
     </td>
@@ -360,6 +388,8 @@ he made which I believe is relevant to all.
 5. As mentioned above [here is the video](http://www.youtube.com/watch?v=55lfGEjnjoc) 
 which inspired me to start slacklining. Also see 
 [this amazing one](http://www.youtube.com/watch?v=CmuMSnT9ISU).
+6. Miguel Nicolelis is a fantastic Brazilian neuroscientist and here 
+is a [ground-breaking experiment](http://www.youtube.com/watch?v=CR_LBcZg_84).
 
 """
     }, {
@@ -378,7 +408,7 @@ which inspired me to start slacklining. Also see
     <td style="padding-left:2em">
         <ul style="padding: 0 0 0 0; margin: 0 0; list-style:none; font-family:OpenSans">
             <li><b>GB:</b> 0044 7891 946 982</li>
-            <li><b>BR:</b> 706 87 87 8</li>
+            <li><b>BR:</b> 0055 9706 87 87 8</li>
         </ul>
     </td>
   </tr>
@@ -389,6 +419,10 @@ which inspired me to start slacklining. Also see
   <tr>
     <td ><i class="fa fa-stack-overflow"></i></td>
     <td style="padding-left:2em"><a href="http://stackoverflow.com/users/1376627/david-adler">stack overflow</a></td>
+  </tr>
+  <tr>
+    <td ><i class="fa fa-linkedin"></i></td>
+    <td style="padding-left:2em"><a href="http://www.linkedin.com/profile/view?id=255188604">linkedIn</a></td>
   </tr>
   <tr>
     <td ><i class="fa fa-youtube"></i></td>
