@@ -9,4 +9,6 @@
 - apply for another job today
 - hastle luis and dylan
 
-- 
+- get php server working locally
+- get static working properly on django !!
+- sort out your travelling!! 

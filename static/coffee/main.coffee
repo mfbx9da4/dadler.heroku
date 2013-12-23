@@ -9,13 +9,13 @@ main = () ->
 writeTitle = () ->
     header_container = $ '.header-container'
     title_container = $('<div class="centered title-container"></div>').appendTo header_container
-    
+
     # append gravatar
     gravatar = new window.Gravatar("/static/img/da-gravatar.jpg");
     title_container.append gravatar.el
 
     # append title
-    title = $ '<h1 id="my-name" class="animated fadeInDown">David Adler</h1>'
+    title = $ '<h1 id="my-name" class="animated title fadeInDown">David Adler</h1>'
     title.on('click', (event) -> event.preventDefault(); location.reload();)
     title.hover(
         (e) ->

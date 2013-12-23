@@ -14,4 +14,8 @@ def home(request):
     return TemplateResponse(request, 'index.html', context)
 
 def list_static(request):
-	return HttpResponse(settings['STATICFILES_DIRS'], content_type='text')
+    return HttpResponse(settings['STATICFILES_DIRS'], content_type='text')
+
+def blog(request):
+    context = RequestContext(request)
+    return TemplateResponse(request, 'blog.html', context)
