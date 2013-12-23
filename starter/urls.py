@@ -6,8 +6,8 @@ from django.conf import settings
 
 urlpatterns = patterns('',
     url(r'^/?$', 'core.views.home', name='home'),
-    url(r'^blog/?$', 'core.views.blog', name='blog'),
-    url(r'^list_static/?', 'core.views.list_static', name='list_static'),
+    # url(r'^blog/?$', 'core.views.blog', name='blog'),
+    # url(r'^list_static/?', 'core.views.list_static', name='list_static'),
     # url(r'^hellodjango/', include('hellodjango.foo.urls')),
     (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
 
