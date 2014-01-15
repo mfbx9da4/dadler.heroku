@@ -1,0 +1,107 @@
+David Adler
+Curriculum Vitae
+
+55 Lock Rd
+London TW10 7LQ
+0044 7891 946 982
+dalberto.adler@gmail.com
+www.davidadler.me
+Dual-nationality: Brazilian-British
+
+Education
+2009–2013 2:1 (69%) BSc Honours Neuroscience , University of Manchester , UK.
+Averaged 1st in core neuroscience modules.
+Demonstrated drive and creativity by designing my own final year project de novo.
+Project (awarded 1st): Disproved validity of a pioneering artificial intelligence
+algorithm. Created my own computational model of learning networks of the
+brain. Gained experience in computational modelling and machine learning.
+2007–2009 A levels, Ibstock Place School, London, UK.
+Physics (B), Maths (B), Biology (B). AS level: French (B).
+2005–2007 GCSEs, Ibstock Place School, London, UK.
+1A*, 5As, 4Bs + Triple Science.
+Languages English (native), French (proficient), Spanish (intermediate) and Portuguese (intermediate).
+Academic
+Honours
+
+Featured in the University of Manchester Undergraduate Prospectus.
+Silver Award in UK National Mathematics Challenge.
+Advanced one year for academic attainment in primary school.
+
+Experience
+Autumn 2013 Web developer, SuperAwesome, London, UK.
+Developed backend using django. Used heroku and amazon for hosting and
+deployment. Became familiar with git branching, merging and collaboration.
+Developed multiple mini-games using HTML5 canvas and javascript.
+Innovated and developed front-end automator web app which optimized front-end
+build time from 5 hours to 1 minute.
+Made multiple presentations on the above front-end automator to colleagues.
+Summer 2013 Marketing analyst, SportPursuit, London, UK.
+Innovated and developed a script which optimized marketing campaign launch
+time from 1 hour to 10 minutes.
+Performed data analysis of facebook and google advertisements.
+2011–2012 Research Intern, Laboratory of Functional Neuroanatomy, IkerBasque, Spain.
+
+Developed methodical approach and attention to detail by conducting unsupervised
+scientific experiments.
+Developed presentation skills in regular boardroom meetings.
+Project: Investigated changes in cell morphology of astrocytes in the triple
+transgenic mouse model of Alzheimer’s disease. Developed skills in data analysis,
+fluorescence microscopy and immunohistochemistry.
+Summer 2011 Estate Agent, Imperial Homes, Kensington, London, UK.
+Property negotiator in high-profile sales and lettings. Thrived in high-pressure
+negotiation situations and enjoyed problem solving in precarious deals.
+Demonstrated competency in customer relations when conducting viewings and
+conversing with high net worth clients.
+Gained experience in corporate etiquette when conducting phone and email
+conversations in a professional manner.
+Summer 2010 Private beach waiter, Plage Rive Gauche, Juan Les Pins, France.
+Enjoyed interacting with customers which was reflected by generating the largest
+amount of tips of all the waiters.
+Working 84 hours per week strengthened my work ethic and resilience.
+
+Leadership roles
+2012–2013 Founder and chair, of University of Manchester Slackline Society.
+Developed management skills by organizing events and managing studies in parallel.
+2012–2013 Committee member, of University of Manchester Ultimate Programming Society.
+Gave a talk on google apps script and google app engine to a room of 50 persons.
+
+Interests
+Computer
+programming
+
+I love to code! This is my favourite hobby. I am self-taught and I have an ever
+growing list of software ideas. Coding provides an outlet for my creativity.
+I enjoy the mathematical and problem solving facets of programming and solve
+mathematical/programming problems in my spare time, such as those found at
+ProjectEuler.net.
+Skills/languages: C (First language. Built a terminal based meal organizer, a
+recursive sudoku solver and experimented with GTK.); JavaScript (Comfortable,
+experience with OOP. Built multiple HTML5 games and a scientific referencing
+system for google documents. A fan of jquery, jqueryUI and coffeescript. Experimented with nodejs, emberjs and backbonejs.); Web design (Comfortable
+with CSS3, animations, gimp and enjoy developing front end for functional purposes. A fan of SASS.); Web dev (Most comfortable area of computer science.
+Mostly using python, django and google app engine. Like front-end and backend
+equally.); Python (Most comfortable and favourite language. Built miscellaneous
+applications, such as mp3 syncing scripts and an alarm, as well as more serious
+programs such as my final year neural network project where I became familiar
+with git, OOP and unit testing.); Go (Keen to learn more, experimented with a
+chat server.) Java (No grand projects yet but very keen to develop android apps).
+
+Slacklining
+
+A high altitude modern form of tight rope walking which has developed my ability
+to be able to maintain composure under highly stressful situations.
+At ground level, I use the slackline as a thin trampoline and have since been
+sponsored and competed at national level (currently 4th in the UK).
+Cycling I enjoy the challenge of bicycle touring and have travelled thousands of miles
+through Europe by bicycle. I have also volunteered at a bicycle recycling project in
+Manchester.
+
+References
+Autumn 2013 Joshua Wohle - Cheif Production Officer and manager at SuperAwesome.
+joshua@superawesome.tv
+2011-2012 Doctor Markel Olabarria - Supervisor for one year during laboratory placement.
+markelolaba@gmail.com
+2009-2013 Professor Richard Baines - Personal advisor over four year period during university.
+richard.baines@manchester.ac.uk
+
+

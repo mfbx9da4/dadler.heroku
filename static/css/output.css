@@ -68,8 +68,7 @@ code {
       float: left;
       color: rgba(60, 110, 201, 0.7); }
     .main .section .item .description {
-      float: left;
-      width: 20em; }
+      float: left; }
     .main .section .item span.fill {
       position: absolute;
       z-index: 20;

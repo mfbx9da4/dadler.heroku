@@ -46,10 +46,11 @@
       section.icon.animate({
         fontSize: '2em'
       }, 'fast');
-      return section.item.animate({
+      section.item.animate({
         width: '100%',
         height: '7em'
       }).find('.description p').hide();
+      return section.item.find('.description').width('13em');
     };
 
     Section.prototype.grow_icon = function() {
@@ -58,10 +59,11 @@
       section.icon.animate({
         fontSize: '4em'
       }, 'fast');
-      return section.item.animate({
+      section.item.animate({
         width: ITEM_WIDTH,
         height: '13em'
       }).find('.description p').show('fast');
+      return section.item.find('.description').width('20em');
     };
 
     Section.prototype.render = function() {
