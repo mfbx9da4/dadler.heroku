@@ -366,7 +366,8 @@ when I can I like to use online learning tools such as [coursera](http://courser
 I think cycling is simply a better way to travel. Indeed I like cycling 
 so much I have travelled thousands of miles through europe on my bike.
 This illustrates my point nicely:
-<img style="display:block;height:630px" src="/static/img/cycling-is-better.jpg"/>
+<img style="display:block;height:630px;margin: 0 auto;margin: 23px auto;
+box-shadow: 4px 4px 21px 1px black;" src="/static/img/cycling-is-better.jpg"/>
 
 
 ----------
