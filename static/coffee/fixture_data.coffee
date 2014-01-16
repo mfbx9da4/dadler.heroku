@@ -316,25 +316,28 @@ up and speak Spanish fairly well.
 2. Meet my Brazilian family!
 3. Because I can! Travel broadens the mind.
 
-Whilst here I would like to work in a Brazilian company. I have a few preferences
-for types of company and positions but there are two important criteria that I am 
-looking for. Firstly, the company has a good ethos (ie the employees 
-work because they enjoy what they do, not just for money). Secondly, the company is
-not set in its ways and celebrates creativity and innovation. (If you satisfy 
-these please contact 
+Whilst here I hope to find a fun place to work. Ideally situated in Rio
+De Janeiro but I am open to other offers. I would like to work in a 
+company with an innovative business idea, a strong company ethos and 
+a highly creative environment.
+
+
+Note: I am eligibile to work without 
+a special visa since I have a Brazilian passport. My Portuguese is now at 
+a sufficient level for written and communication. Feel free to contact me 
 <i style="background-color: gold; border-radius:100%; font-size:1.5em" class="fa  fa-smile-o"></i>).
 
 
 <hr>
 ##Interests
 
-###Coding
+###<i style="color:rgb(255, 163, 0)" class="fa fa-code"></i> Coding
 I spend a lot of my free time making fun things and learning new technologies.
 I originally started learning to code because of an ambititon to start an online 
 business. The business came to fruition but I fell in love with coding and stuck 
 with it.
 
-###Slackline
+###<i style="color:rgb(255, 163, 0)" class="fa fa-star"></i> Slackline
 Inspired by this [incredible video](http://www.youtube.com/watch?v=55lfGEjnjoc) 
 I was determined to begin slacklining. 
 In October 2011 I bought my first slackline and got into the slackline scene
@@ -342,24 +345,24 @@ in Bilbao, Spain. Not long after I competed in slackline competitions such as
 in this [video](http://www.youtube.com/watch?v=TCaj_6_kxnE) and that [video](http://vimeo.com/68002964). 
 More recently I starred in a [music video](http://www.youtube.com/watch?v=LrFMbNH-w9I).
 
-###Music
+###<i style="color:rgb(255, 163, 0)" class="fa fa-music"></i> Music
 I am a self-confessed music snob. I don't like commercial/chart music (for the vast majority). 
 I prefer music from eclectic sounds from all over the world. Here is a 
 [small playlist](http://www.youtube.com/playlist?feature=edit_ok&list=PLjOro5tPjsWpOXHH6jASK5eqWJdF1cV-d) I
 threw together, it features Cuban, Brazilian, Arabic, 
 African music and some others.
 
-###Coffee
+###<i style="color:rgb(255, 163, 0)" class="fa fa-coffee"></i> Coffee
 Huge fan of coffee. I am interested in how brewing parameters (e.g. extraction time,
 pressure, heat) can affect the taste and particularly strength of the coffee.
 
-###Learning
+###<i style="color:rgb(255, 163, 0)" class="fa fa-book"></i> Learning
 I love learning new things and I am currently having a lot of fun trying out gymnastics.
 Hopefully learn some capoeira whilst in Brazil, as well as Forró being on my list. Also,
 when I can I like to use online learning tools such as [coursera](http://coursera.org),
 [udacity](http://udacity.com) and [duolingo](http://duolingo.com).
 
-###Cycling
+###<i style="color:rgb(255, 163, 0)" class="fa fa-globe"></i> Cycling
 I think cycling is simply a better way to travel. Indeed I like cycling 
 so much I have travelled thousands of miles through europe on my bike.
 This illustrates my point nicely:
@@ -419,6 +422,10 @@ is a [ground-breaking experiment](http://www.youtube.com/watch?v=CR_LBcZg_84).
   <tr>
     <td ><i class="fa fa-stack-overflow"></i></td>
     <td style="padding-left:2em"><a href="http://stackoverflow.com/users/1376627/david-adler">stack overflow</a></td>
+  </tr>
+  <tr>
+    <td ><i class="fa fa-github-alt"></i></td>
+    <td style="padding-left:2em"><a href="https://gist.github.com/mfbx9da4">github gist</a></td>
   </tr>
   <tr>
     <td ><i class="fa fa-linkedin"></i></td>
