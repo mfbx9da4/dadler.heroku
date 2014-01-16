@@ -49,6 +49,7 @@ class window.Section
         section.item.animate(
             width:'100%'
             height: '7em').find('.description p').hide()
+        section.item.find('.description').width('13em')
 
     grow_icon: () ->
         section = @
@@ -56,6 +57,7 @@ class window.Section
         section.item.animate(
             width: ITEM_WIDTH
             height: '13em').find('.description p').show('fast')
+        section.item.find('.description').width('20em')
 
     render: () ->
         @.resize()
