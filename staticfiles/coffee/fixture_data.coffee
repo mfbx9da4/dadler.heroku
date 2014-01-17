@@ -425,6 +425,10 @@ is a [ground-breaking experiment](http://www.youtube.com/watch?v=CR_LBcZg_84).
     <td style="padding-left:2em"><a href="http://stackoverflow.com/users/1376627/david-adler">stack overflow</a></td>
   </tr>
   <tr>
+    <td ><i class="fa fa-twitter"></i></td>
+    <td style="padding-left:2em"><a href="https://twitter.com/da_adler">twitter</a></td>
+  </tr>
+  <tr>
     <td ><i class="fa fa-github-alt"></i></td>
     <td style="padding-left:2em"><a href="https://gist.github.com/mfbx9da4">github gist</a></td>
   </tr>
