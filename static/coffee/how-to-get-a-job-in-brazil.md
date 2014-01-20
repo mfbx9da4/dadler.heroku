@@ -22,13 +22,39 @@
 - http://www.maxmasnick.com/articles/jobs/
 - http://www.vagasrio.com.br/
 - http://indeed.com
+- [adzuna](http://www.adzuna.com.br/)
+- [career jet](http://www.careerjet.com.br/)
+
+###Biotech
+- http://www.sbbiotec.org.br/web_opo_emp.php?idu=0&stu=0
+- http://www2.apexbrasil.com.br/en
+- [rio](http://chronepigen.com.br/usa/index.html)
+- [biounity](http://www.bionity.com/en/associations/92899/brbiotec-brasil-associacao-brasileira-de-biotecnologia.html)
+- [biotec](http://www.biotecsur.org/bases-de-datos/empresa_search_results?nombre=&sector=&actividad=&country=BR&SUBMIT=Buscar)
+- [cryoprazis](http://www.cryopraxis.com.br/home/)
+- [equifarma](http://www.equifarma.com.br/)
+- [lista inova](http://www.inova.unicamp.br/empreendedores/empresas-filhas/cadastradas/5)
+- [sbbiotec opportunidades](http://www.sbbiotec.org.br/web_opo_emp.php?idu=0&stu=0)
+- [biorio](http://concursos.biorio.org.br/abertosBRC.asp)
 
 
-###Non-specific
+###Resources
+- [jobs in brazil as a foreigner](http://www.visahunter.com/articles/how-to-find-a-job-in-brazil-as-a-foreigner/)
+- [downsides](http://braziliangringo.com/downsides-job-brazil/)
+
+###Communities
+- [anglo info](http://brazil.angloinfo.com/)
+- [internations]()
+
+###For foreigners
 - [jobsinrio.com](http://jobsinrio.com)
+- [michael page](http://www.michaelpage.com.br/)
+- [times online](http://riotimesonline.com/brazil-news/tag/jobs/)
 
 ##Learning the language
 - [Duolingo](http://duolingo.com)
+- [blog](http://www.liveinbrazil.org/how-to-learn-portuguese-online-101/)
+- [slang](http://www.speaklikeabrazilian.com/)
 
 ##Get organized
 - Targets

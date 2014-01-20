@@ -204,18 +204,17 @@ span-date[Autumn 2012]
 
 span-pro[python]
 span-nov[ruby]
-span-nov[node.js]
+span-med[node.js]
 span-med[C]
 span-nov[java]
 span-nov[android]
 span-pro[django]
-span-nov[go]
-span-nov[ember.js]
+span-med[mongodb]
+span-med[go]
+span-med[ember.js]
 span-nov[backbone.js]
 span-med[git]
 span-pro[linux]
-span-med[windows]
-span-med[mac os]
 span-pro[heroku]
 span-pro[google app engine]
 span-pro[javascript]
@@ -282,6 +281,13 @@ span-nov[Novice, but eager to learn more.]
     });
 </script>
 
+<hr>
+###My workflow
+
+- editor: sublime
+- terminal: zsh, ipython, dropdown terminator
+- browser: chrome
+- os: ubuntu with gnome3 
 
 """
     }, {
