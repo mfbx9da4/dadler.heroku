@@ -28,6 +28,13 @@ span-date[2004–2006]
 - 1A*, 5As, 4Bs .
 - Plus triple science award.
 
+
+<hr/>
+
+span-date[2003–2004]
+###span-discrete[St. Paul's School, London, UK.]
+- Ranked [third in the UK](http://rankings.ft.com/secondary-schools/st-pauls-school-richmond-upon-thames/secondary-schools-2011).
+
 <hr/>
 
 ###Languages
