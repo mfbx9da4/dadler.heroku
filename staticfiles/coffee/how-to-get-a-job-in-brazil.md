@@ -24,6 +24,7 @@
 - http://indeed.com
 - [adzuna](http://www.adzuna.com.br/)
 - [career jet](http://www.careerjet.com.br/)
+- [open jobs](http://openjobs.com.br/)
 
 ###Biotech
 - http://www.sbbiotec.org.br/web_opo_emp.php?idu=0&stu=0
@@ -39,6 +40,7 @@
 
 ###Working remotely
 - [remote](https://weworkremotely.com/)
+- [remote employment](http://www.remoteemployment.com/)
 
 ###Resources
 - [jobs in brazil as a foreigner](http://www.visahunter.com/articles/how-to-find-a-job-in-brazil-as-a-foreigner/)
@@ -53,6 +55,10 @@
 - [jobsinrio.com](http://jobsinrio.com)
 - [michael page](http://www.michaelpage.com.br/)
 - [times online](http://riotimesonline.com/brazil-news/tag/jobs/)
+
+###Register CV
+- [curriculum br](http://www.curriculum.com.br/)
+
 
 ##Learning the language
 - [Duolingo](http://duolingo.com)
