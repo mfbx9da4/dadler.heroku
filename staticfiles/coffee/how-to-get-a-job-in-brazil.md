@@ -37,10 +37,13 @@
 - [sbbiotec opportunidades](http://www.sbbiotec.org.br/web_opo_emp.php?idu=0&stu=0)
 - [biorio](http://concursos.biorio.org.br/abertosBRC.asp)
 
+###Working remotely
+- [remote](https://weworkremotely.com/)
 
 ###Resources
 - [jobs in brazil as a foreigner](http://www.visahunter.com/articles/how-to-find-a-job-in-brazil-as-a-foreigner/)
 - [downsides](http://braziliangringo.com/downsides-job-brazil/)
+- [brazil business](http://thebrazilbusiness.com/)
 
 ###Communities
 - [anglo info](http://brazil.angloinfo.com/)
