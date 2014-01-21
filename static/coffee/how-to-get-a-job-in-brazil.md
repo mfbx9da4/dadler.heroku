@@ -1,35 +1,29 @@
-##What I will cover
-- flights
-- travel insurance
-- jobs
-- vaccines
-- how to hack the language
-
-##Job sites
 ###Programming specific
 - [ondetrabalhar.com.br](http://www.ondetrabalhar.com.br/)
 - [trampos.co](http://trampos.co/)
-- http://www.infojobs.com.br/
-- http://www.apinfo.com/
-- https://jobs.github.com/
-- http://careers.stackoverflow.com/
-- https://github.com/bevacqua/jobs
-- https://weworkremotely.com/
-- https://angel.co
-- http://www.careerjet.com.br/
-- http://www.vagasurgentes.net/
-- http://www.empregacarioca.com/
-- http://www.maxmasnick.com/articles/jobs/
-- http://www.vagasrio.com.br/
-- http://indeed.com
-- [adzuna](http://www.adzuna.com.br/)
-- [career jet](http://www.careerjet.com.br/)
+- [infojobs](http://www.infojobs.com.br/)
+- [apinfo](http://www.apinfo.com/)
+- [SO careers](http://careers.stackoverflow.com/)
+- [github jobs](https://jobs.github.com/)
+- [angel](https://angel.co)
 - [open jobs](http://openjobs.com.br/)
 
+###Portals
+- [indeed](http://indeed.com)
+
+###General
+- [career jet](http://www.careerjet.com.br/)
+- [vagas surgent](http://www.vagasurgentes.net/)
+- [emprega carioca](http://www.empregacarioca.com/)
+- [maxmasnick](http://www.maxmasnick.com/articles/jobs/)
+- [vagas rio](http://www.vagasrio.com.br/)
+- [adzuna](http://www.adzuna.com.br/)
+- [career jet](http://www.careerjet.com.br/)
+
 ###Biotech
-- http://www.sbbiotec.org.br/web_opo_emp.php?idu=0&stu=0
-- http://www2.apexbrasil.com.br/en
-- [rio](http://chronepigen.com.br/usa/index.html)
+- [sb biotec](http://www.sbbiotec.org.br/web_opo_emp.php?idu=0&stu=0)
+- [apex brasil](http://www2.apexbrasil.com.br/en)
+- [chrone pigen](http://chronepigen.com.br/usa/index.html)
 - [biounity](http://www.bionity.com/en/associations/92899/brbiotec-brasil-associacao-brasileira-de-biotecnologia.html)
 - [biotec](http://www.biotecsur.org/bases-de-datos/empresa_search_results?nombre=&sector=&actividad=&country=BR&SUBMIT=Buscar)
 - [cryoprazis](http://www.cryopraxis.com.br/home/)
@@ -39,13 +33,14 @@
 - [biorio](http://concursos.biorio.org.br/abertosBRC.asp)
 
 ###Working remotely
-- [remote](https://weworkremotely.com/)
+- [we work remotely](https://weworkremotely.com/)
 - [remote employment](http://www.remoteemployment.com/)
 
 ###Resources
 - [jobs in brazil as a foreigner](http://www.visahunter.com/articles/how-to-find-a-job-in-brazil-as-a-foreigner/)
 - [downsides](http://braziliangringo.com/downsides-job-brazil/)
 - [brazil business](http://thebrazilbusiness.com/)
+- [front end dev jobs](https://github.com/bevacqua/jobs)
 
 ###Communities
 - [anglo info](http://brazil.angloinfo.com/)
@@ -58,13 +53,9 @@
 
 ###Register CV
 - [curriculum br](http://www.curriculum.com.br/)
-
+- [apinfo](http://www.apinfo.com/)
 
 ##Learning the language
 - [Duolingo](http://duolingo.com)
 - [blog](http://www.liveinbrazil.org/how-to-learn-portuguese-online-101/)
 - [slang](http://www.speaklikeabrazilian.com/)
-
-##Get organized
-- Targets
-- Get creative

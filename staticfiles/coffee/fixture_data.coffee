@@ -107,6 +107,13 @@ conversations in a professional manner.
         'content' : """(This area is under dev. More links coming soon.)
 <hr>
 
+span-date[January 2014]
+###[Emberjs, mongodb, nodejs blog](http://davidadlerblog.herokuapp.com)
+- Currently building this but you can preview it [here](http://davidadlerblog.herokuapp.com).
+- Uses [aceeditor](ace.c9.io/#nav=api&api=editor), [monk](https://github.com/LearnBoost/monk),
+[mongohq](https://app.mongohq.com/), [gruntjs](http://gruntjs.com), [twitter bootstrap](http://getbootstrap.com/getting-started) 
+and [emberjs](http://emberjs.com)
+
 span-date[Autumn 2013]
 ###[Front-end automator](http://spritesheet-gen.herokuapp.com/campaign/Sks6OUwjp/)
 - Automates CSS positioning and sprite cropping using image detection algorithms and HTML5 canvas.
