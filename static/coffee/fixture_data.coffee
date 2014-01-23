@@ -28,6 +28,13 @@ span-date[2004–2006]
 - 1A*, 5As, 4Bs .
 - Plus triple science award.
 
+
+<hr/>
+
+span-date[2003–2004]
+###span-discrete[St. Paul's School, London, UK.]
+- Ranked [third in the UK](http://rankings.ft.com/secondary-schools/st-pauls-school-richmond-upon-thames/secondary-schools-2011).
+
 <hr/>
 
 ###Languages
@@ -100,6 +107,13 @@ conversations in a professional manner.
         'content' : """(This area is under dev. More links coming soon.)
 <hr>
 
+span-date[January 2014]
+###[Emberjs, mongodb, nodejs blog](http://davidadlerblog.herokuapp.com)
+- Currently indev but you can preview it [here](http://davidadlerblog.herokuapp.com) and find the [source code here](https://github.com/mfbx9da4/blog).
+- Uses [aceeditor](ace.c9.io/#nav=api&api=editor), [monk](https://github.com/LearnBoost/monk),
+[mongohq](https://app.mongohq.com/), [gruntjs](http://gruntjs.com), [twitter bootstrap](http://getbootstrap.com/getting-started) 
+and [emberjs](http://emberjs.com)
+
 span-date[Autumn 2013]
 ###[Front-end automator](http://spritesheet-gen.herokuapp.com/campaign/Sks6OUwjp/)
 - Automates CSS positioning and sprite cropping using image detection algorithms and HTML5 canvas.
@@ -108,7 +122,7 @@ functioning website. Turns several hours into seconds.
 
 span-date[Autumn 2013]
 ###Youtube playlist manager
-- An open source project which I contributed to.
+- A backbonejs, youtube api open source project which I contributed to.
 - Specifically, I introduced the ability to automatically replace deleted videos in playlists
 with other equivalent youtube videos.
 
@@ -204,18 +218,17 @@ span-date[Autumn 2012]
 
 span-pro[python]
 span-nov[ruby]
-span-nov[node.js]
+span-med[node.js]
 span-med[C]
 span-nov[java]
 span-nov[android]
 span-pro[django]
-span-nov[go]
-span-nov[ember.js]
+span-med[mongodb]
+span-med[go]
+span-med[ember.js]
 span-nov[backbone.js]
 span-med[git]
 span-pro[linux]
-span-med[windows]
-span-med[mac os]
 span-pro[heroku]
 span-pro[google app engine]
 span-pro[javascript]
@@ -282,6 +295,13 @@ span-nov[Novice, but eager to learn more.]
     });
 </script>
 
+<hr>
+###My workflow
+
+- editor: sublime
+- terminal: zsh, ipython, dropdown terminator
+- browser: chrome
+- os: ubuntu with gnome3 
 
 """
     }, {
@@ -292,6 +312,32 @@ span-nov[Novice, but eager to learn more.]
 -------
 
 ##Self-summary
+<style>
+.thumbnail {
+    float:left; 
+    height:125px;
+    margin: 5px;
+    
+}
+.thumbnail-link {
+    display: inline-block;
+    border-bottom: 0;
+}
+    .thumbnail-link:hover {
+        border-bottom: 0;
+    }
+</style>
+<div style="padding: 5px; border: 1px solid #888; border-radius: 10px; box-shadow: 0px 0px 9px 1px #888; margin: 0 9px;"> 
+    <a class="thumbnail-link" data-lightbox="me" title="Prospectus photo" href="/static/img/me/prospectus.jpg" ><img class="thumbnail" src="/static/img/me/prospectus.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="Another prospectus photo, mid jump on a slackline" href="/static/img/me/prospectus-jump.jpg" ><img class="thumbnail" src="static/img/me/prospectus-jump.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="In Lille, whilst cycle touring round Europe" href="/static/img/me/lille.jpg" ><img class="thumbnail" src="/static/img/me/lille.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="Weekend cycling adventure mid-winter" href="/static/img/me/leeds.jpg" ><img class="thumbnail" src="/static/img/me/leeds.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="Slacklining near London" href="/static/img/me/high.jpg" ><img class="thumbnail" src="/static/img/me/high.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="Graduation photo" href="/static/img/me/grad-profile.png" ><img class="thumbnail" src="static/img/me/grad-profile.png"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="My actual brain!" href="/static/img/me/brain.jpg" ><img class="thumbnail" src="/static/img/me/brain.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="" href="/static/img/me/plank.jpg" ><img class="thumbnail" src="/static/img/me/plank.jpg"/></a>
+</div>
+
 I was born and raised in a green suburb of London called Richmond. 
 I spent my summers in Antibes, France and lived for one year in 
 Bilbao, Spain. 
@@ -310,21 +356,17 @@ believe in. I also think its important to balance work with sport and adventure.
 I recently (December 2013) moved to Brazil for three reasons (no particular
 order):
 
-1. Become fluent in Portuguese. I am half-Brazilian and it pains me that
-I never learned Portuguese at home, even though I learned French growing 
-up and speak Spanish fairly well.
+1. Become fluent in Portuguese. 
 2. Meet my Brazilian family!
 3. Because I can! Travel broadens the mind.
 
-Whilst here I hope to find a fun place to work. Ideally situated in Rio
-De Janeiro but I am open to other offers. I would like to work in a 
-company with an innovative business idea, a strong company ethos and 
-a highly creative environment.
-
+Whilst here I hope to find a fun place to work. Ideally situated in Florianopolis or Rio
+de Janeiro but I am open to other locations. I would like to work in a highly innovative and ethical company. 
+Any companies related to biomedicine or coffee is a bonus.
 
 Note: I am eligibile to work without 
 a special visa since I have a Brazilian passport. My Portuguese is now at 
-a sufficient level for written and communication. Feel free to contact me 
+a sufficient level for written and spoken communication. Feel free to contact me 
 <i style="background-color: gold; border-radius:100%; font-size:1.5em" class="fa  fa-smile-o"></i>).
 
 
@@ -439,6 +481,10 @@ is a [ground-breaking experiment](http://www.youtube.com/watch?v=CR_LBcZg_84).
   <tr>
     <td ><i class="fa fa-youtube"></i></td>
     <td style="padding-left:2em"><a href="http://www.youtube.com/user/mfbx9da4/videos?flow=grid&view=1">youtube</a></td>
+  </tr>
+  <tr>
+    <td ><i class="fa fa-facebook"></i></td>
+    <td style="padding-left:2em"><a href="https://www.facebook.com/davidadlerfb">facebook</a></td>
   </tr>
 </table>
 

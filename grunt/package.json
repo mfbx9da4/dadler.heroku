@@ -8,9 +8,9 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "",
-    "grunt-contrib-cssmin": "",
     "grunt-contrib-jshint": "",
     "grunt-contrib-watch": "",
+    "grunt-contrib-coffee": "",
     "grunt-contrib-concat": "",
     "grunt-concat-css": "",
     "grunt-contrib-uglify": "",

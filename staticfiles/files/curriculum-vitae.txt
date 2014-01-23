@@ -28,6 +28,7 @@ Silver Award in UK National Mathematics Challenge.
 Advanced one year for academic attainment in primary school.
 
 Experience
+
 Autumn 2013 Web developer, SuperAwesome, London, UK.
 Developed backend using django. Used heroku and amazon for hosting and
 deployment. Became familiar with git branching, merging and collaboration.
@@ -35,18 +36,20 @@ Developed multiple mini-games using HTML5 canvas and javascript.
 Innovated and developed front-end automator web app which optimized front-end
 build time from 5 hours to 1 minute.
 Made multiple presentations on the above front-end automator to colleagues.
+
 Summer 2013 Marketing analyst, SportPursuit, London, UK.
 Innovated and developed a script which optimized marketing campaign launch
 time from 1 hour to 10 minutes.
 Performed data analysis of facebook and google advertisements.
-2011–2012 Research Intern, Laboratory of Functional Neuroanatomy, IkerBasque, Spain.
 
-Developed methodical approach and attention to detail by conducting unsupervised
+2011–2012 Research Intern, Laboratory of Functional Neuroanatomy, IkerBasque, Spain.
+Developed methodical approach and attention to detail by conducting unsupervised
 scientific experiments.
 Developed presentation skills in regular boardroom meetings.
 Project: Investigated changes in cell morphology of astrocytes in the triple
 transgenic mouse model of Alzheimer’s disease. Developed skills in data analysis,
 fluorescence microscopy and immunohistochemistry.
+
 Summer 2011 Estate Agent, Imperial Homes, Kensington, London, UK.
 Property negotiator in high-profile sales and lettings. Thrived in high-pressure
 negotiation situations and enjoyed problem solving in precarious deals.
@@ -54,10 +57,6 @@ Demonstrated competency in customer relations when conducting viewings and
 conversing with high net worth clients.
 Gained experience in corporate etiquette when conducting phone and email
 conversations in a professional manner.
-Summer 2010 Private beach waiter, Plage Rive Gauche, Juan Les Pins, France.
-Enjoyed interacting with customers which was reflected by generating the largest
-amount of tips of all the waiters.
-Working 84 hours per week strengthened my work ethic and resilience.
 
 Leadership roles
 2012–2013 Founder and chair, of University of Manchester Slackline Society.
@@ -66,9 +65,8 @@ Developed management skills by organizing events and managing studies in paralle
 Gave a talk on google apps script and google app engine to a room of 50 persons.
 
 Interests
-Computer
-programming
 
+Computer programming
 I love to code! This is my favourite hobby. I am self-taught and I have an ever
 growing list of software ideas. Coding provides an outlet for my creativity.
 I enjoy the mathematical and problem solving facets of programming and solve
@@ -86,13 +84,14 @@ programs such as my final year neural network project where I became familiar
 with git, OOP and unit testing.); Go (Keen to learn more, experimented with a
 chat server.) Java (No grand projects yet but very keen to develop android apps).
 
-Slacklining
-
+Slacklining
 A high altitude modern form of tight rope walking which has developed my ability
 to be able to maintain composure under highly stressful situations.
 At ground level, I use the slackline as a thin trampoline and have since been
 sponsored and competed at national level (currently 4th in the UK).
-Cycling I enjoy the challenge of bicycle touring and have travelled thousands of miles
+
+Cycling
+I enjoy the challenge of bicycle touring and have travelled thousands of miles
 through Europe by bicycle. I have also volunteered at a bicycle recycling project in
 Manchester.
 

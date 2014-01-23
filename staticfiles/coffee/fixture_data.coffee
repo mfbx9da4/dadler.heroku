@@ -122,7 +122,7 @@ functioning website. Turns several hours into seconds.
 
 span-date[Autumn 2013]
 ###Youtube playlist manager
-- An open source project which I contributed to.
+- A backbonejs, youtube api open source project which I contributed to.
 - Specifically, I introduced the ability to automatically replace deleted videos in playlists
 with other equivalent youtube videos.
 
@@ -330,21 +330,19 @@ believe in. I also think its important to balance work with sport and adventure.
 I recently (December 2013) moved to Brazil for three reasons (no particular
 order):
 
-1. Become fluent in Portuguese. I am half-Brazilian and it pains me that
-I never learned Portuguese at home, even though I learned French growing 
-up and speak Spanish fairly well.
+1. Become fluent in Portuguese. 
 2. Meet my Brazilian family!
 3. Because I can! Travel broadens the mind.
 
-Whilst here I hope to find a fun place to work. Ideally situated in Rio
-De Janeiro but I am open to other offers. I would like to work in a 
+Whilst here I hope to find a fun place to work. Ideally situated in Florianopolis or Rio
+de Janeiro but I am open to other offers. I would like to work in a 
 company with an innovative business idea, a strong company ethos and 
-a highly creative environment.
+a highly creative environment. Any companies with related to biomedicine or coffee is a bonus.
 
 
 Note: I am eligibile to work without 
 a special visa since I have a Brazilian passport. My Portuguese is now at 
-a sufficient level for written and communication. Feel free to contact me 
+a sufficient level for written and spoken communication. Feel free to contact me 
 <i style="background-color: gold; border-radius:100%; font-size:1.5em" class="fa  fa-smile-o"></i>).
 
 
