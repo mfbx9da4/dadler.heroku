@@ -109,7 +109,7 @@ conversations in a professional manner.
 
 span-date[January 2014]
 ###[Emberjs, mongodb, nodejs blog](http://davidadlerblog.herokuapp.com)
-- Currently building this but you can preview it [here](http://davidadlerblog.herokuapp.com).
+- Currently indev but you can preview it [here](http://davidadlerblog.herokuapp.com) and find the [source code here](https://github.com/mfbx9da4/blog).
 - Uses [aceeditor](ace.c9.io/#nav=api&api=editor), [monk](https://github.com/LearnBoost/monk),
 [mongohq](https://app.mongohq.com/), [gruntjs](http://gruntjs.com), [twitter bootstrap](http://getbootstrap.com/getting-started) 
 and [emberjs](http://emberjs.com)
@@ -312,6 +312,32 @@ span-nov[Novice, but eager to learn more.]
 -------
 
 ##Self-summary
+<style>
+.thumbnail {
+    float:left; 
+    height:125px;
+    margin: 5px;
+    
+}
+.thumbnail-link {
+    display: inline-block;
+    border-bottom: 0;
+}
+    .thumbnail-link:hover {
+        border-bottom: 0;
+    }
+</style>
+<div style="padding: 5px; border: 1px solid #888; border-radius: 10px; box-shadow: 0px 0px 9px 1px #888; margin: 0 9px;"> 
+    <a class="thumbnail-link" data-lightbox="me" title="Prospectus photo" href="/static/img/me/prospectus.jpg" ><img class="thumbnail" src="/static/img/me/prospectus.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="Another prospectus photo, mid jump on a slackline" href="/static/img/me/prospectus-jump.jpg" ><img class="thumbnail" src="static/img/me/prospectus-jump.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="In Lille, whilst cycle touring round Europe" href="/static/img/me/lille.jpg" ><img class="thumbnail" src="/static/img/me/lille.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="Weekend cycling adventure mid-winter" href="/static/img/me/leeds.jpg" ><img class="thumbnail" src="/static/img/me/leeds.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="Slacklining near London" href="/static/img/me/high.jpg" ><img class="thumbnail" src="/static/img/me/high.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="Graduation photo" href="/static/img/me/grad-profile.png" ><img class="thumbnail" src="static/img/me/grad-profile.png"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="My actual brain!" href="/static/img/me/brain.jpg" ><img class="thumbnail" src="/static/img/me/brain.jpg"/></a>
+    <a class="thumbnail-link" data-lightbox="me" title="" href="/static/img/me/plank.jpg" ><img class="thumbnail" src="/static/img/me/plank.jpg"/></a>
+</div>
+
 I was born and raised in a green suburb of London called Richmond. 
 I spent my summers in Antibes, France and lived for one year in 
 Bilbao, Spain. 
@@ -335,10 +361,8 @@ order):
 3. Because I can! Travel broadens the mind.
 
 Whilst here I hope to find a fun place to work. Ideally situated in Florianopolis or Rio
-de Janeiro but I am open to other offers. I would like to work in a 
-company with an innovative business idea, a strong company ethos and 
-a highly creative environment. Any companies with related to biomedicine or coffee is a bonus.
-
+de Janeiro but I am open to other locations. I would like to work in a highly innovative and ethical company. 
+Any companies related to biomedicine or coffee is a bonus.
 
 Note: I am eligibile to work without 
 a special visa since I have a Brazilian passport. My Portuguese is now at 
