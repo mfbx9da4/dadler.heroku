@@ -39,7 +39,7 @@ module.exports = function(grunt) {
                     "../static/css/main.css",
                     "../static/css/lightbox.css"
                 ],
-                dest: "../static/output/output2.css"
+                dest: "../static/output/output.css"
             }
         },
         csslint: {
