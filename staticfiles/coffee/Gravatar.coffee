@@ -6,7 +6,7 @@ class window.Gravatar
         css_params = 
             position: 'absolute'
             cursor: 'pointer'
-            top: '4em'
+            top: '3.1em'
             left: '-4em'
             opacity: 0
             width: 0
@@ -33,7 +33,7 @@ class window.Gravatar
             gravatar.el.show()
 
     show: (onComplete)->
-        dim =  90
+        dim =  80
         @el.animate(
                 top:    @el.position().top - dim/2
                 left:   @el.position().left - dim/2

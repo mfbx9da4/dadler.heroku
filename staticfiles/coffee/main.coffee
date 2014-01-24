@@ -26,7 +26,7 @@ writeTitle = () ->
     # animate header
     header_container.delay(1000)
         .animate(
-            {height:'10em'}, 
+            {height:'7em'}, 
             duration: 700, 
             complete:() -> 
                 gravatar.show(writeMain)

@@ -26,7 +26,7 @@
     });
     title_container.append(title);
     return header_container.delay(1000).animate({
-      height: '10em'
+      height: '7em'
     }, {
       duration: 700,
       complete: function() {

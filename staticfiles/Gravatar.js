@@ -9,7 +9,7 @@
       css_params = {
         position: 'absolute',
         cursor: 'pointer',
-        top: '4em',
+        top: '3.1em',
         left: '-4em',
         opacity: 0,
         width: 0,
@@ -42,7 +42,7 @@
 
     Gravatar.prototype.show = function(onComplete) {
       var dim;
-      dim = 90;
+      dim = 80;
       return this.el.animate({
         top: this.el.position().top - dim / 2,
         left: this.el.position().left - dim / 2,
