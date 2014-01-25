@@ -95,10 +95,10 @@ code {
 
 
 .main {
-	font-family: OpenSans;
+	font-family: OpenSans, sans-serif;
 	.section {
 		.item {
-			font-family: OpenSans;
+			font-family: OpenSans, sans-serif;
 			float: left;
 			height: 13em;
 			position: relative;
@@ -128,11 +128,11 @@ code {
     	overflow-x: hidden;
     	clear: both;
     	.date {
-    		font-family: SourceCodePro;
+    		font-family: SourceCodePro, courier;
 		}
 		h3 {         }
 		li {
-			font-family: SourceCodePro;
+			font-family: SourceCodePro, courier;
 			list-style-image:url(/static/img/bullet.jpg);         
 		}         
 		.discrete {             
@@ -214,7 +214,7 @@ code {
 		}
 		#my-name {
 			font-weight: normal;
-			font-family: Flamenco;
+			font-family: Flamenco, sans-serif;
 			color: white;
 			font-size: 3.6em;
 			-webkit-touch-callout: none;
