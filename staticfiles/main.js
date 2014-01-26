@@ -6,12 +6,13 @@
   });
 
   main = function() {
+    window.ITEM_WIDTH = 480;
     window.container = $('.container');
     return writeTitle();
   };
 
   writeTitle = function() {
-    var gravatar, header_container, title, title_container;
+    var gravatar, header_container, title, title_container, title_resize;
     header_container = $('.header-container');
     title_container = $('<div class="centered title-container"></div>').appendTo(header_container);
     gravatar = new window.Gravatar("/static/img/da-gravatar.jpg");
@@ -25,6 +26,17 @@
       return $('#gravatar');
     });
     title_container.append(title);
+    $(window).resize(title_resize);
+    title_resize = function() {
+      if (ITEM_WIDTH + 150 >= $('.main').width()) {
+        title_container.width('19em');
+        return window.is_wide = false;
+      } else {
+        window.is_wide = true;
+        return title_container.width('25em');
+      }
+    };
+    title_resize();
     return header_container.delay(1000).animate({
       height: '7em'
     }, {
@@ -45,7 +57,6 @@
     window.converter.hooks.chain("preConversion", function(text) {
       return text.replace(/graph-(\d\d\d?)%/gi, '<div class="graph-container" style="width:30em"><div class="animated stretchRight graph" style="width: $1%;"></div></div>');
     });
-    window.ITEM_WIDTH = 480;
     window.container.append(main_container);
     cv_sections = [];
     _ref = window.cv_sections;

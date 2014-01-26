@@ -3,6 +3,7 @@ $(window).ready ->
     main()
 
 main = () ->
+    window.ITEM_WIDTH = 480
     window.container = $ '.container'
     writeTitle()
 
@@ -22,7 +23,17 @@ writeTitle = () ->
             $('#gravatar')
         )
     title_container.append title
+    $(window).resize(title_resize)
 
+    title_resize = () -> 
+        if ITEM_WIDTH + 150 >= $('.main').width()
+            title_container.width('19em')
+            window.is_wide = false
+        else
+            window.is_wide = true
+            title_container.width('25em')
+
+    title_resize()
     # animate header
     header_container.delay(1000)
         .animate(
@@ -31,6 +42,8 @@ writeTitle = () ->
             complete:() -> 
                 gravatar.show(writeMain)
             )
+
+
 
 
 writeMain = () ->
@@ -47,7 +60,6 @@ writeMain = () ->
     window.converter.hooks.chain("preConversion",  (text) ->
         return text.replace(/graph-(\d\d\d?)%/gi, '<div class="graph-container" style="width:30em"><div class="animated stretchRight graph" style="width: $1%;"></div></div>')
     )
-    window.ITEM_WIDTH = 480
     window.container.append(main_container)
     cv_sections = []
     for data in window.cv_sections
