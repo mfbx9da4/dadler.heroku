@@ -476,7 +476,7 @@ is a [ground-breaking experiment](http://www.youtube.com/watch?v=CR_LBcZg_84).
   </tr>
   <tr>
     <td ><i class="fa fa-linkedin"></i></td>
-    <td style="padding-left:2em"><a href="http://www.linkedin.com/profile/view?id=255188604">linkedIn</a></td>
+    <td style="padding-left:2em"><a href="http://br.linkedin.com/pub/david-adler/71/566/710/">linkedIn</a></td>
   </tr>
   <tr>
     <td ><i class="fa fa-youtube"></i></td>
