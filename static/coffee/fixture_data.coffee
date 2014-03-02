@@ -145,7 +145,7 @@ like interface may simplify the learning process and so we started coding ...
 
 span-date[2012-2013]
 ###Artiﬁcial neuron-astrocyte network
-- Final year computational neuroscience project.
+- Final year computational neuroscience project, [write-up found here](/static/files/write_up.pdf).
 - This project involved the development of one of the first ever computational models of a learning neuron-astrocyte network.
 - *Background:* Contrary to popular belief, neurons are not the only 
 cells in the brain which perform learning and cognitive functions. 
@@ -153,12 +153,10 @@ For decades, artificial intelligence researchers have made computational models
 of neural networks but failed to acknowledge the role of astrocytes. 
 My work presents a novel model of neuron-astrocyte networks and challenges 
 one of the pioneering neuron-astrocyte network models. If you are interested in a more
-comprehensive background information on the topic please read [this essay](/files/lit_review.pdf) I wrote.
+comprehensive background information on the topic please read [my essay](/static/files/lit_review.pdf).
 - *Why?:* While on placement in Spain, I was researching the role of astrocytes in Alzheimer's disease. 
 I was fascinated by the fact that their abundance and diversity is proportional to intelligence and yet 
-their role in intelligence is largely overlooked.
-
-At the time I was also curious about artificial intelligence (AI) and was intrigued to see 
+their role in intelligence is largely overlooked. At the time I was also curious about artificial intelligence (AI) and was intrigued to see 
 how AI researchers had modelled astrocytes. Suprisingly, few researchers had made 
 computational models of astrocytes, and so my project began. 
 

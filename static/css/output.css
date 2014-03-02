@@ -57,9 +57,9 @@ code {
   background-color: rgba(12, 4, 16, 0.1); }
 
 .main {
-  font-family: OpenSans, sans-serif; }
+  font-family: OpenSans, Arial, sans-serif; }
   .main .section .item {
-    font-family: OpenSans, sans-serif;
+    font-family: OpenSans, Arial, sans-serif;
     float: left;
     height: 13em;
     position: relative;
@@ -82,9 +82,9 @@ code {
     overflow-x: hidden;
     clear: both; }
     .main .content .date {
-      font-family: SourceCodePro, courier; }
+      font-family: SourceCodePro, Courier; }
     .main .content li {
-      font-family: SourceCodePro, courier;
+      font-family: SourceCodePro, Courier;
       list-style-image: url(/static/img/bullet.jpg); }
     .main .content .discrete {
       font-weight: normal;
@@ -150,7 +150,7 @@ code {
         cursor: pointer; }
     .header-container .title-container #my-name {
       font-weight: normal;
-      font-family: Flamenco, sans-serif;
+      font-family: Flamenco, Arial, sans-serif;
       color: white;
       font-size: 3.6em;
       -webkit-touch-callout: none;
