@@ -91,7 +91,7 @@ ALLOWED_HOSTS = ['*']
 
 # Static asset configuration
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
-STATIC_ROOT = 'staticfiles'
+STATIC_ROOT = 'static'
 STATIC_URL = '/static/'
 
 
@@ -101,10 +101,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static/css/'),
     os.path.join(BASE_DIR, 'static/js'),
     os.path.join(BASE_DIR, 'static/js/'),
-    os.path.join(BASE_DIR, 'staticfiles/css'),
-    os.path.join(BASE_DIR, 'staticfiles/css/'),
-    os.path.join(BASE_DIR, 'staticfiles/js'),
-    os.path.join(BASE_DIR, 'staticfiles/js/'),
+    # os.path.join(BASE_DIR, 'staticfiles/css'),
+    # os.path.join(BASE_DIR, 'staticfiles/css/'),
+    # os.path.join(BASE_DIR, 'staticfiles/js'),
+    # os.path.join(BASE_DIR, 'staticfiles/js/'),
 )
-
-

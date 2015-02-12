@@ -18,7 +18,7 @@ span-date[2009–2013]
 span-date[2007–2009]
 ###A levels, span-discrete[Ibstock Place School, London, UK.]
 - Ranked in [top 1.5%](http://www.ibstockplaceschool.co.uk/About-Us) of all UK schools
-- Physics (B), Maths (B), Biology (B). 
+- Physics (B), Maths (B), Biology (B).
 - AS level: French (B).
 
 <hr/>
@@ -57,7 +57,7 @@ span-date[2003–2004]
         'content' : """
 <hr/>
 
-span-date[Autumn 2013] 
+span-date[Autumn 2013]
 
 ###Web developer, <span class="discrete"><a href="http://www.superawesome.tv/" >SuperAwesome</a>, London, UK.</span>
 - Developed multiple mini-games using HTML5 canvas and javascript.
@@ -78,7 +78,7 @@ time from 1 hour to 10 minutes.
 
 <hr/>
 
-span-date[2011–2012] 
+span-date[2011–2012]
 ###Neuroscience research placement, <span class="discrete">Laboratory of Functional Neuroanatomy, <a href="http://www.ikerbasque.net/">IkerBasque</a>, Spain.</span>
 - Developed methodical approach and attention to detail by conducting unsupervised
 scientiﬁc experiments.
@@ -111,7 +111,7 @@ span-date[January 2014]
 ###[Emberjs, mongodb, nodejs blog](http://davidadlerblog.herokuapp.com)
 - Currently indev but you can preview it [here](http://davidadlerblog.herokuapp.com) and find the [source code here](https://github.com/mfbx9da4/blog).
 - Uses [aceeditor](ace.c9.io/#nav=api&api=editor), [monk](https://github.com/LearnBoost/monk),
-[mongohq](https://app.mongohq.com/), [gruntjs](http://gruntjs.com), [twitter bootstrap](http://getbootstrap.com/getting-started) 
+[mongohq](https://app.mongohq.com/), [gruntjs](http://gruntjs.com), [twitter bootstrap](http://getbootstrap.com/getting-started)
 and [emberjs](http://emberjs.com)
 
 span-date[Autumn 2013]
@@ -133,32 +133,32 @@ span-date[Autumn 2013]
 span-date[Summer 2013]
 ###[Rhythmludus (incomplete)](http://rhythmludus.appspot.com/game?song=song_one_track_low.xml&back=file.mp3)
 - Side project with my friend [Jessie](https://github.com/jessie93).
-- HTML5 canvas guitar hero-like game for playing rhythms with keys. Also comes with 
-a rhythm composer. Rhythms are stored as XML and site uses python and google app engine for 
+- HTML5 canvas guitar hero-like game for playing rhythms with keys. Also comes with
+a rhythm composer. Rhythms are stored as XML and site uses python and google app engine for
 backend.
 - The intention is to teach users rhythm by playing the game.
-- *Why?:* I have been trying to learn how to play an Egyptian hand drum 
-called a <a href="http://www.youtube.com/watch?v=abUAzg9PR9Y">darbuka</a>. 
-I found it hard to learn new rhythms, harder to make up new rhythms and 
-hardest to play in time with other people or songs. I thought a guitar-hero 
+- *Why?:* I have been trying to learn how to play an Egyptian hand drum
+called a <a href="http://www.youtube.com/watch?v=abUAzg9PR9Y">darbuka</a>.
+I found it hard to learn new rhythms, harder to make up new rhythms and
+hardest to play in time with other people or songs. I thought a guitar-hero
 like interface may simplify the learning process and so we started coding ...
 
 span-date[2012-2013]
 ###Artiﬁcial neuron-astrocyte network
 - Final year computational neuroscience project, [write-up found here](/static/files/write_up.pdf).
 - This project involved the development of one of the first ever computational models of a learning neuron-astrocyte network.
-- *Background:* Contrary to popular belief, neurons are not the only 
-cells in the brain which perform learning and cognitive functions. 
-For decades, artificial intelligence researchers have made computational models 
-of neural networks but failed to acknowledge the role of astrocytes. 
-My work presents a novel model of neuron-astrocyte networks and challenges 
+- *Background:* Contrary to popular belief, neurons are not the only
+cells in the brain which perform learning and cognitive functions.
+For decades, artificial intelligence researchers have made computational models
+of neural networks but failed to acknowledge the role of astrocytes.
+My work presents a novel model of neuron-astrocyte networks and challenges
 one of the pioneering neuron-astrocyte network models. If you are interested in a more
 comprehensive background information on the topic please read [my essay](/static/files/lit_review.pdf).
-- *Why?:* While on placement in Spain, I was researching the role of astrocytes in Alzheimer's disease. 
-I was fascinated by the fact that their abundance and diversity is proportional to intelligence and yet 
-their role in intelligence is largely overlooked. At the time I was also curious about artificial intelligence (AI) and was intrigued to see 
-how AI researchers had modelled astrocytes. Suprisingly, few researchers had made 
-computational models of astrocytes, and so my project began. 
+- *Why?:* While on placement in Spain, I was researching the role of astrocytes in Alzheimer's disease.
+I was fascinated by the fact that their abundance and diversity is proportional to intelligence and yet
+their role in intelligence is largely overlooked. At the time I was also curious about artificial intelligence (AI) and was intrigued to see
+how AI researchers had modelled astrocytes. Suprisingly, few researchers had made
+computational models of astrocytes, and so my project began.
 
 span-date[Autumn 2012]
 ###Google docs referencing system
@@ -239,6 +239,10 @@ span-pro[neural networks]
 span-pro[numpy]
 span-pro[pybrain]
 span-pro[matplotlib]
+span-pro[docker.io]
+span-nov[map-reduce]
+span-med[nginx]
+
 
 
 </div>
@@ -279,7 +283,7 @@ span-nov[Novice, but eager to learn more.]
 
             var content_open = graph.parents('.content').css('display') == 'block' ? true : false;
 
-            if (content_open && graphOffset < topOfWindow+windowHeight 
+            if (content_open && graphOffset < topOfWindow+windowHeight
                 && graphOffset > topOfWindow) {
                 window.setTimeout(
                     function () {
@@ -299,7 +303,7 @@ span-nov[Novice, but eager to learn more.]
 - editor: sublime
 - terminal: zsh, ipython, dropdown terminator
 - browser: chrome
-- os: ubuntu with gnome3 
+- os: ubuntu with gnome3
 
 """
     }, {
@@ -312,10 +316,10 @@ span-nov[Novice, but eager to learn more.]
 ##Self-summary
 <style>
 .thumbnail {
-    float:left; 
+    float:left;
     height:125px;
     margin: 5px;
-    
+
 }
 .thumbnail-link {
     display: inline-block;
@@ -325,7 +329,7 @@ span-nov[Novice, but eager to learn more.]
         border-bottom: 0;
     }
 </style>
-<div style="padding: 5px; border: 1px solid #888; border-radius: 10px; box-shadow: 0px 0px 9px 1px #888; margin: 0 9px;"> 
+<div style="padding: 5px; border: 1px solid #888; border-radius: 10px; box-shadow: 0px 0px 9px 1px #888; margin: 0 9px;">
     <a class="thumbnail-link" data-lightbox="me" title="Prospectus photo" href="/static/img/me/prospectus.jpg" ><img class="thumbnail" src="/static/img/me/prospectus.jpg"/></a>
     <a class="thumbnail-link" data-lightbox="me" title="Another prospectus photo, mid jump on a slackline" href="/static/img/me/prospectus-jump.jpg" ><img class="thumbnail" src="static/img/me/prospectus-jump.jpg"/></a>
     <a class="thumbnail-link" data-lightbox="me" title="In Lille, whilst cycle touring round Europe" href="/static/img/me/lille.jpg" ><img class="thumbnail" src="/static/img/me/lille.jpg"/></a>
@@ -336,14 +340,14 @@ span-nov[Novice, but eager to learn more.]
     <a class="thumbnail-link" data-lightbox="me" title="" href="/static/img/me/plank.jpg" ><img class="thumbnail" src="/static/img/me/plank.jpg"/></a>
 </div>
 
-I was born and raised in a green suburb of London called Richmond. 
-I spent my summers in Antibes, France and lived for one year in 
-Bilbao, Spain. 
+I was born and raised in a green suburb of London called Richmond.
+I spent my summers in Antibes, France and lived for one year in
+Bilbao, Spain.
 
-At university I discovered the fruits of independent 
+At university I discovered the fruits of independent
 learning and often studied and attended classes beyond the scope of my course.
-For example, I attended machine learning taught by [Gavin Brown & Co](http://www.cs.man.ac.uk/~gbrown/). 
-I also enjoyed taking part in a number of 
+For example, I attended machine learning taught by [Gavin Brown & Co](http://www.cs.man.ac.uk/~gbrown/).
+I also enjoyed taking part in a number of
 societies and even created my own, [University of Manchester Slackline
 Society](http://www.facebook.com/groups/uomslackline).
 
@@ -354,17 +358,17 @@ believe in. I also think its important to balance work with sport and adventure.
 I recently (December 2013) moved to Brazil for three reasons (no particular
 order):
 
-1. Become fluent in Portuguese. 
+1. Become fluent in Portuguese.
 2. Meet my Brazilian family!
 3. Because I can! Travel broadens the mind.
 
 Whilst here I hope to find a fun place to work. Ideally situated in Florianopolis or Rio
-de Janeiro but I am open to other locations. I would like to work in a highly innovative and ethical company. 
+de Janeiro but I am open to other locations. I would like to work in a highly innovative and ethical company.
 Any companies related to biomedicine or coffee is a bonus.
 
-Note: I am eligibile to work without 
-a special visa since I have a Brazilian passport. My Portuguese is now at 
-a sufficient level for written and spoken communication. Feel free to contact me 
+Note: I am eligibile to work without
+a special visa since I have a Brazilian passport. My Portuguese is now at
+a sufficient level for written and spoken communication. Feel free to contact me
 <i style="background-color: gold; border-radius:100%; font-size:1.5em" class="fa  fa-smile-o"></i>).
 
 
@@ -373,23 +377,23 @@ a sufficient level for written and spoken communication. Feel free to contact me
 
 ###<i style="color:rgb(255, 163, 0)" class="fa fa-code"></i> Coding
 I spend a lot of my free time making fun things and learning new technologies.
-I originally started learning to code because of an ambititon to start an online 
-business. The business came to fruition but I fell in love with coding and stuck 
+I originally started learning to code because of an ambititon to start an online
+business. The business came to fruition but I fell in love with coding and stuck
 with it.
 
 ###<i style="color:rgb(255, 163, 0)" class="fa fa-star"></i> Slackline
-Inspired by this [incredible video](http://www.youtube.com/watch?v=55lfGEjnjoc) 
-I was determined to begin slacklining. 
+Inspired by this [incredible video](http://www.youtube.com/watch?v=55lfGEjnjoc)
+I was determined to begin slacklining.
 In October 2011 I bought my first slackline and got into the slackline scene
 in Bilbao, Spain. Not long after I competed in slackline competitions such as
-in this [video](http://www.youtube.com/watch?v=TCaj_6_kxnE) and that [video](http://vimeo.com/68002964). 
+in this [video](http://www.youtube.com/watch?v=TCaj_6_kxnE) and that [video](http://vimeo.com/68002964).
 More recently I starred in a [music video](http://www.youtube.com/watch?v=LrFMbNH-w9I).
 
 ###<i style="color:rgb(255, 163, 0)" class="fa fa-music"></i> Music
-I am a self-confessed music snob. I don't like commercial/chart music (for the vast majority). 
-I prefer music from eclectic sounds from all over the world. Here is a 
+I am a self-confessed music snob. I don't like commercial/chart music (for the vast majority).
+I prefer music from eclectic sounds from all over the world. Here is a
 [small playlist](http://www.youtube.com/playlist?feature=edit_ok&list=PLjOro5tPjsWpOXHH6jASK5eqWJdF1cV-d) I
-threw together, it features Cuban, Brazilian, Arabic, 
+threw together, it features Cuban, Brazilian, Arabic,
 African music and some others.
 
 ###<i style="color:rgb(255, 163, 0)" class="fa fa-coffee"></i> Coffee
@@ -403,7 +407,7 @@ when I can I like to use online learning tools such as [coursera](http://courser
 [udacity](http://udacity.com) and [duolingo](http://duolingo.com).
 
 ###<i style="color:rgb(255, 163, 0)" class="fa fa-globe"></i> Cycling
-I think cycling is simply a better way to travel. Indeed I like cycling 
+I think cycling is simply a better way to travel. Indeed I like cycling
 so much I have travelled thousands of miles through europe on my bike.
 This illustrates my point nicely:
 <img style="display:block;height:630px;margin: 0 auto;margin: 23px auto;
@@ -412,27 +416,27 @@ box-shadow: 4px 4px 21px 1px black;" src="/static/img/cycling-is-better.jpg"/>
 
 ----------
 ##Inspiring things
-Not particularly related to my CV but I have wanted to make this list for a while 
+Not particularly related to my CV but I have wanted to make this list for a while
 and never got round to it.
-The internet can be an inspiring place sometimes. Here are a few things 
+The internet can be an inspiring place sometimes. Here are a few things
 which have inspired me:
 
-1. Stories of a palliative care nurse who asked her patients if they had any regrets 
+1. Stories of a palliative care nurse who asked her patients if they had any regrets
 before they were about to die. Here are the top 5 [regrets of the dying](http://www.inspirationandchai.com/Regrets-of-the-Dying.html).
-2. [TED](http://www.ted.com/) is an amazing place to fnd inspiring people and this is an 
+2. [TED](http://www.ted.com/) is an amazing place to fnd inspiring people and this is an
 [amazing guy](http://www.ted.com/talks/william_kamkwamba_how_i_harnessed_the_wind.html).
-3. [Here is somebody](http://www.youtube.com/watch?v=G6CVj5IQkzk) who really challenges 
+3. [Here is somebody](http://www.youtube.com/watch?v=G6CVj5IQkzk) who really challenges
 conventional thinking and I really respect as a
 visionary. He was a prominent feature in my decision to study neuroscience.
-4. I learned programming online and stumbled on some C lectures taught by the exceptional 
-Richard Buckland. I was enthused by his passion for computer science and probably 
-would not have pursued programming until now if it was not for him. Here is 
+4. I learned programming online and stumbled on some C lectures taught by the exceptional
+Richard Buckland. I was enthused by his passion for computer science and probably
+would not have pursued programming until now if it was not for him. Here is
 [a less technical lecture](http://www.youtube.com/watch?v=Nq9tjwFI4y0)
 he made which I believe is relevant to all.
-5. As mentioned above [here is the video](http://www.youtube.com/watch?v=55lfGEjnjoc) 
-which inspired me to start slacklining. Also see 
+5. As mentioned above [here is the video](http://www.youtube.com/watch?v=55lfGEjnjoc)
+which inspired me to start slacklining. Also see
 [this amazing one](http://www.youtube.com/watch?v=CmuMSnT9ISU).
-6. Miguel Nicolelis is a fantastic Brazilian neuroscientist and here 
+6. Miguel Nicolelis is a fantastic Brazilian neuroscientist and here
 is a [ground-breaking experiment](http://www.youtube.com/watch?v=CR_LBcZg_84).
 
 """
