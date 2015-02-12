@@ -218,8 +218,9 @@ span-date[Autumn 2012]
 
 span-pro[python]
 span-nov[ruby]
-span-med[node.js]
+span-pro[node.js]
 span-med[C]
+span-med[bash]
 span-nov[java]
 span-nov[android]
 span-pro[django]
@@ -241,6 +242,9 @@ span-pro[neural networks]
 span-pro[numpy]
 span-pro[pybrain]
 span-pro[matplotlib]
+span-pro[docker.io]
+span-nov[map-reduce]
+span-med[nginx]
 
 
 </div>
@@ -301,7 +305,7 @@ span-nov[Novice, but eager to learn more.]
 - editor: sublime
 - terminal: zsh, ipython, dropdown terminator
 - browser: chrome
-- os: ubuntu with gnome3 
+- os: ubuntu with highly customized KDE
 
 """
     }, {
