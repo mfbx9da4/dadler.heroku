@@ -91,7 +91,7 @@ ALLOWED_HOSTS = ['*']
 
 # Static asset configuration
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
-STATIC_ROOT = 'static'
+# STATIC_ROOT = 'static'
 STATIC_URL = '/static/'
 
 

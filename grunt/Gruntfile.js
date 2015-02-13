@@ -12,8 +12,8 @@ module.exports = function(grunt) {
                     "../static/js/vendor/Markdown.Converter.js",
                     "../static/js/vendor/Markdown.Sanitizer.js",
                     "../static/js/vendor/jquery-1.10.1.min.js",
-                    "../static/js/vendor/lightbox-2.6.min.js",
-                    "../static/js/vendor/jqueryui.js"
+                    "../static/js/vendor/lightbox-2.6.min.js"
+                    // "../static/js/vendor/jqueryui.js"
                 ],
                 dest: '../static/output/libs.js'
             },
@@ -31,7 +31,6 @@ module.exports = function(grunt) {
             css: {
                 src: [
                     // need to add an @ to line 2312
-                    "../static/css/jqueryui.css",
                     "../static/css/justin.animations.css",
                     "../static/css/animate.css",
                     "../static/css/normalize.min.css",
